@@ -1,0 +1,58 @@
+.earn{
+    display: flex;
+    justify-content: flex-end;
+    
+  margin-top: -50px;
+  font-size: 20px;
+  padding-right: 20px;
+  font-family: Montserrat;
+}
+.earns{
+    margin-top: -10px;
+    display: flex;
+    justify-content: flex-end;
+  margin-right: 50px;
+    font-size: 20px;
+    font-family: Montserrat;
+   
+}
+@media (max-width: 400px) {
+    .earn{
+        font-size: 15px;
+    }
+}
+@media (max-width: 320px) {
+    .up{
+        font-size: 15px;
+    }
+    .earn{
+        font-size: 13px;
+        margin-left: 30px;
+
+        margin-top: -45px;
+    }
+    .earns{
+        font-size: 13px;
+        margin-top: 1px;
+    }
+}
+.s{
+    padding: 20px;
+    font-size: 20px;
+    border-bottom: 1px solid #0000005E;
+    color: #000000BA;
+}
+
+
+.ulls{
+    margin-top: 10px;
+    list-style: none;
+    margin-left: 380px;
+    
+    
+  }
+  @media (max-width: 800px) {
+    .ulls{
+        margin-left: -20px;
+    }
+  }

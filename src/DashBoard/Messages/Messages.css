@@ -1,0 +1,146 @@
+.right-div{
+   min-height: 10vh;
+    background: rgba(217, 217, 217, 0.93);
+    position: relative;
+}
+.center-div{
+min-height: 80vh;
+    background: url(../../Images/whatsBg.png);
+    background-size: cover;
+    padding-top: 50px;
+    font-size: 15px;
+    font-family: Poppins;
+}
+.last{
+   min-height: 10vh;
+    background-color: #D9D9D9ED;
+}
+ .mess{
+    background-color:#1F90F3;
+    width:20%;
+    display:flex;
+    justify-content:center;
+    border-radius:50px;
+    height:40px;
+    align-items:center;
+margin-left: 800px;
+font-family: Montserrat;
+
+
+}
+.messs{
+    background-color:#1F90F3;
+    width:20%;
+    display:flex;
+    justify-content:center;
+    border-radius:50px;
+    height:40px;
+    align-items:center;
+margin-left: 800px;
+margin-top: 50px;
+font-family: Montserrat;
+}
+.mess-two{
+    background-color:#FFFFFF;
+    width:20%;
+    display:flex;
+    justify-content:center;
+    border-radius:50px;
+    height:40px;
+    align-items:center;
+    margin-left: 40px;
+    margin-top: 30px;
+    font-family: Montserrat;
+ 
+}
+.Mustafa{
+    position: absolute;
+    margin-left: 90px;
+    margin-top: -50px;
+    font-size: 20px;
+    font-family: Montserrat;
+}
+.search{
+    position: absolute;
+ margin-left: 900px;
+ margin-top: -65px;
+}
+.bar{
+   margin-left: 40px;
+  padding-bottom: 6px;
+}
+.right-icon{
+padding: 20px;
+margin-left: 30px;
+
+}
+.te{
+    margin-left: 50px;
+    width: 70%;
+    /* height: 20px; */
+    padding-top: 20px;
+    border-radius: 15px;
+    background-color: white;
+    border: white;
+}
+.Type{
+    font-size: 15px;
+    margin-left: 300px;
+    margin-top: -30px;
+    color: #00000099;
+}
+
+@media screen and (max-width: 800px) {
+ 
+    .search{
+       margin-left: 350px;
+    }
+    .smi{
+        width: 50px;
+    }
+    .att{
+        width: 50px;
+    }
+    .te{
+        margin-left: 70px;
+        width: 150px;
+    }
+    .Type{
+        font-size: 10px;
+        margin-left: 250px;
+    }
+
+  .mess-two{
+    background-color:#FFFFFF;
+    width:40%;
+    display:flex;
+    justify-content:center;
+    border-radius:50px;
+    height:40px;
+    align-items:center;
+    margin-left: 40px;
+    margin-bottom: 30px;
+  }
+  .mess{
+    background-color:#1F90F3;
+    width:40%;
+    display:flex;
+    justify-content:center;
+    border-radius:50px;
+    height:40px;
+    align-items:center;
+    margin-left: 250px;
+  }
+  .messs{
+    background-color:#1F90F3;
+    width:40%;
+    display:flex;
+    justify-content:center;
+    border-radius:50px;
+    height:40px;
+    align-items:center;
+    margin-left: 250px;
+    margin-top: 30px;
+  }
+
+}

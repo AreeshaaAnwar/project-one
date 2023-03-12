@@ -1,0 +1,93 @@
+.bank{
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.05);
+    font-family: Montserrat;
+}
+
+.addbut{
+    margin-top: -60px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    font-family: Montserrat;
+}
+.add{
+height: 30px;
+border-radius: 5px;
+background-color: #074276;
+border: #074276;
+color: white;
+font-family: Montserrat;
+}
+
+.acc{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #0000005E;
+ padding-left: 10px;
+ font-family: Montserrat;
+   font-size: 20px;
+}
+.accc{
+    display: flex;
+    flex-direction: row;
+  
+ padding-left: 10px;
+ font-family: Montserrat;
+   font-size: 20px;
+}
+.sa{
+    margin-left: 70px;
+    
+}
+.sas{
+    margin-left: 80px;  
+}
+.saa{
+    margin-left: 100px;
+}
+.num{
+    margin-left: 120px;
+}
+.curr{
+    margin-left: 130px;
+}
+.nam{
+    margin-left: 120px;
+}
+.bphone{
+    margin-left: 100px;
+}
+@media (max-width: 800px) {
+    .acc{
+        flex-direction: column;
+    }
+    .accc{
+        flex-direction: column;
+    }
+    .sa{
+        margin-left: -1px;
+    }
+
+
+
+
+    .saa{
+     margin-left: 15px;
+    }
+    .num{
+        margin-left: 15px;
+    }
+    .curr{
+        margin-left: 15px;
+    }
+    .nam{
+        margin-left: 15px;
+    }
+    .bphone{
+        margin-left: 15px;
+    }
+    .sas{
+        margin-left: 15px;
+    }
+}

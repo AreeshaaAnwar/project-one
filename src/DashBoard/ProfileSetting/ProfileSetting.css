@@ -1,0 +1,73 @@
+.u{
+    display: flex;
+justify-content: flex-start;
+font-size: 20px;
+padding: 20px;
+font-weight: 500;
+border-bottom: 1px solid #0000001A;
+font-family: Montserrat;
+}
+.input-one{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+
+}
+.multiline{
+    width: 350px;
+    font-family: Montserrat;
+ 
+}
+.Emai{
+    width: 350px; 
+    font-family: Montserrat;
+
+}
+.canc{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-family: Montserrat;
+}
+.cane{
+    width: 200px;
+    height: 40px;
+    background-color: #074276;
+    border: #074276;
+    border-radius: 10px;
+    color: white;
+    font-family: poppins;
+    font-size: 15px;
+    margin-left: 10px;
+    font-family: Montserrat;
+}
+@media (max-width: 800px) {
+.input-one{
+    flex-direction: column;
+}
+}
+@media (max-width: 500px) {
+.multiline{
+    width: 250px;
+}
+.Emai{
+    width: 250px; 
+}
+}
+@media (max-width: 400px) {
+    .multiline{
+        width: 200px;
+    }
+    .Emai{
+        width: 200px; 
+    }
+    }
+
+
+
+    @media (max-width: 320px) {
+.input-one{
+margin-left: -20px;
+}
+    }

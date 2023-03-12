@@ -1,0 +1,38 @@
+.navtext{
+    background-color:#D9D9D959;
+    border-radius:50%;
+margin-left: 200px;
+    height:40px;
+    width:40px ;
+   display:flex;
+    justify-content:center;
+    color: black;
+    
+   
+}
+.navicon{
+    background-color:#D9D9D959;
+    border-radius:50%;
+margin-left: 50px;
+    height:40px;
+    width:40px ;
+   display:flex;
+    justify-content:center
+}
+@media (max-width: 800px) {
+.navtext{
+    background-color:#D9D9D959;
+    border-radius:50%;
+margin-left: 80px;
+margin-top: 10px;
+    height:40px;
+    width:40px ;
+   display:flex;
+    justify-content:center;
+    color: black;
+}
+.navicon{
+    margin-left: 80px;
+    margin-top: 10px;
+}
+}

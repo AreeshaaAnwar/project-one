@@ -1,0 +1,90 @@
+.tutors{
+    min-height: 80vh;
+    font-family: Montserrat;
+   
+}
+
+.tutor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+    
+   }
+   .tutor h5{
+    font-weight: bold;
+    font-size: 30px;
+    color: gray;
+    font-family: Montserrat;
+
+
+   }
+   .tutor  .Benefits{
+    text-align: center;
+   margin-top: -40px;
+   font-size: 30px;
+   font-family: Montserrat;
+
+   }
+   .tutor .platform{
+    margin-top: -10px;
+    font-family: Montserrat;
+   }
+  
+   @media (max-width: 500px) {
+   .tutor .Communit{
+text-align: center;
+font-family: Montserrat;
+padding: 10px;
+   }
+  
+  }
+
+ 
+
+   .cardds{
+    max-width: 700px;
+    margin: 0 auto;
+    display: grid;
+    gap: 2rem;
+    padding-top: 70px;
+    padding-bottom: 10px;
+   }
+
+
+   @media (min-width: 600px) {
+    .cardds {
+      grid-template-columns: repeat(2, 1fr);
+      padding: 30px;
+    }
+  }
+  @media (max-width: 599px) {
+    .cardds {
+      grid-template-columns: repeat(1, 1fr);
+      padding: 50px;
+      padding-left: 150px;
+    }
+  }
+  @media (max-width: 400px) {
+    .cardds {
+      grid-template-columns: repeat(1, 1fr);
+      padding: 50px;
+      padding-left: 120px;
+    }
+  }
+  @media (max-width: 325px) {
+    .cardds {
+      grid-template-columns: repeat(1, 1fr);
+      padding: 50px;
+      padding-left: 100px;
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .cardds {
+      grid-template-columns: repeat(3, 1fr);
+    }
+   
+  }
+  

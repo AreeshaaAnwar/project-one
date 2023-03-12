@@ -1,0 +1,109 @@
+.Available{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+   
+    padding: 40px;
+   width: 80%;
+   margin: 0% auto;
+  }
+  
+  .Available-left {
+    background-color: #FFFFFF;
+    min-height: 40vh;
+    flex: 50%;
+    border-radius: 5px;
+    font-family: Montserrat ;
+   
+  
+  }
+  .up{
+    padding: 20px;
+    font-size: 20px;
+    border-bottom: 1px solid #0000005E;
+    font-family: Montserrat ;
+  }
+  .Sessions{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #0000005E;
+    padding-right: 15px;
+    font-family: Montserrat ;
+
+  }
+  .Session{
+    display: flex;
+    flex-direction: row;
+    padding-right: 15px;
+    font-family: Montserrat ;
+  }
+  .ul{
+    margin-top: 10px;
+    list-style: none;
+    font-family: Montserrat ;
+
+    
+  }
+  .ll{
+    font-size: 20px;
+    margin-left: -10px;
+   
+  }
+  .ull{
+    margin-top: 10px;
+    list-style: none;
+    margin-left: 200px;
+    font-family: Montserrat ;
+  }
+  .details{
+    margin-left: 40px;
+    margin-top: 10px;
+    font-family: Montserrat ;
+  
+  }
+  .detailss{
+    margin-top: 10px;
+    margin-left: 30px; 
+    font-family: Montserrat ;
+  }
+  .det{
+    width: 100px;
+    height: 40px;
+    background-color: #074276;
+    border:  #074276;
+    color: white;
+    font-family: poppins;
+    font-size: 15px;
+    border-radius: 5px;
+    font-family: Montserrat ;
+  }
+  /* .ignore{
+
+  } */
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+  @media (max-width: 800px) {
+    .Available {
+      flex-direction: column;
+    }
+    .Sessions{
+    flex-direction: column;
+    padding-bottom: 5px;
+    }
+    .Session{
+        flex-direction: column;
+        padding-bottom: 5px;
+    }
+
+    .ul{
+        margin-left: -20px;
+    }
+    .ull{
+        margin-left: -20px;  
+    }
+    .details{
+        margin-left: 20px;
+    }
+    .ll{
+      margin-left: 1px;
+    }
+  }

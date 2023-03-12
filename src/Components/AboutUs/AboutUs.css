@@ -1,0 +1,144 @@
+.About-us{
+    min-height: 80vh;  
+    font-family: Montserrat;
+}
+.flex-contain {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    /* text-align: center; */
+  }
+  
+  .item-left {
+    padding-top: 100px;
+    padding-left: 40px;
+    flex: 50%;
+    min-height: 60vh;
+  }
+  .abo{
+    font-family: Montserrat;
+    font-size: 20px;
+  }
+  
+  .item-right {
+    /* padding: 10px; */
+    flex: 50%;
+    min-height: 60vh;
+    /* background-position: center; */
+   }
+
+.one{
+    padding-top: 150px;
+    width: 250px;
+}
+.three{
+    margin-left: 20px;
+    padding-top: 100px;
+    width: 200px;
+}
+.fo{
+    margin-right: 100px;
+    height: 300px;
+    width: 200px;
+   
+}
+
+/* .fo{
+    margin-right: 400px;
+    height: 250px;
+    margin-top: 10px;
+} */
+.two{
+  margin-left: -80px;
+    width: 250px;
+    margin-top: -300px;
+    padding-bottom: 0px;
+    height: 300px;
+
+}
+.learn{
+    position: relative;
+    width: 180px;
+    height: 50px;
+   
+}
+
+  @media (max-width: 800px) {
+    .flex-contain {
+      flex-direction: column;
+      flex-direction: column-reverse;
+      padding: 0%;
+    }
+    
+  
+    .item-right {
+      min-height: 24vh;
+      background-position: top;
+      margin-top: 12px;
+      padding-left: 40px;
+    }
+    .item-left{
+        padding-top: 10px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .one{
+        width: 180px;
+    }
+    .three{
+        width: 140px;
+        margin-left: 10px;
+    }
+    .fo{
+        width: 130px;
+       
+    }
+    .two{
+        width: 180px;
+     /* padding-top: 100px; */
+        margin-left: 150px;
+        margin-top: -308px;
+        height: 300px;
+        padding-bottom: 80px
+    }
+    .item-right{
+        padding-top: 0px;
+    }
+   .abo{
+    padding-right: 10px;
+    font-size: 15px;
+   }
+  }
+  @media (max-width: 500px) {
+
+    .item-right{
+       padding-left: 30px;
+    }
+  }
+  @media (max-width: 320px) {
+
+    .one{
+        width: 120px;
+    }
+    .fo{
+        width: 100px;
+    }
+    .three{
+     height:80px
+    }
+    .two{
+        margin-left: 120px;
+        width: 150px;
+        margin-top: -160px;
+       height: 300px;
+   margin-top: -300px;
+       padding-bottom: 40px;
+    }
+   
+  }
+
+
+
+
+  

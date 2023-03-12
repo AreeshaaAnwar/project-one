@@ -1,0 +1,167 @@
+.testimonals{
+    min-height: 90vh;
+    
+}
+.testi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+    
+   }
+   .testi h5{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Montserrat;
+   }
+   .testi  .Benefits{
+    text-align: center;
+   margin-top: -40px;
+   font-size: 30px;
+   font-family: Montserrat;
+
+   }
+   .tests {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    gap: 2rem;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    font-family: Montserrat;
+  }
+  .test-one{
+    background-color: lightgray;
+    color: #006;
+    height: 300px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: relative;
+    padding-bottom: 40px;
+ 
+  }
+  .circle{
+ 
+    position: absolute;
+   left: 80px;
+   top: 30px;
+  }
+  .circle-two{
+    position: absolute;
+   left: 80px;
+   top: 60px;
+  }
+  .col{
+    height: 10vh;
+    background-color: #0C2647;
+  }
+  .col-two{
+    height: 15vh;
+    background-color: rgba(0, 60, 227, 0.9);
+  }
+  .col-three{
+    height: 10vh;
+    background-color: rgba(0, 60, 227, 0.9);;
+  }
+  .test-two{
+    background-color: lightgray;
+    color: #006;
+    height: 370px;
+    margin-top: -40px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+   position: relative;
+   padding-bottom: 20px;
+    
+  }
+  @media (min-width: 600px) {
+    .tests {
+      grid-template-columns: repeat(2, 1fr);
+      padding: 30px;
+    }
+  }
+  @media (max-width: 599px) {
+    .tests {
+      grid-template-columns: repeat(1, 1fr);
+      padding: 50px;
+      
+    }
+    .test-two{
+        background-color: lightgray;
+        color: #006;
+        height: 370px;
+        margin-top: -40px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin-top: 10px;
+      }
+
+  }
+  
+  @media (min-width: 900px) {
+    .tests {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  
+  }
+  @media (min-width: 320px) {
+ .p{
+    font-size: 10px;
+    font-family: Montserrat;
+ }
+  }
+  @media (max-width: 800px) {
+    .circle{
+
+position: absolute;
+left: 120px;
+
+    }
+    .circle-two{
+        position: absolute;
+        left: 120px;  
+    }
+    /* .test-one{
+      padding: 10px;
+    } */
+  }
+  @media (max-width: 400px) {
+    .circle{
+
+position: absolute;
+left: 100px;
+
+    }
+    .circle-two{
+        position: absolute;
+        left: 100px;  
+    }
+    .testi  .Benefits{
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 320px) {
+    .circle{
+
+position: absolute;
+left: 70px;
+
+    }
+    .circle-two{
+        position: absolute;
+        left: 70px;  
+    }
+    .test-one{
+        background-color: lightgray;
+        color: #006;
+        height: 330px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        position: relative;
+      }
+  }
+

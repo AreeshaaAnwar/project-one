@@ -44,10 +44,14 @@
   font-size:30px;
   font-family:Montserrat
 }
-/* .book{
-    float: right;
-  
-} */
+
+.hea{
+  color: white;
+ text-align: center;
+  font-family: Montserrat;
+  font-weight: 900px;
+  font-size: 20px
+}
    @media screen and (max-width: 800px) {
 .centered {
     position: absolute;
@@ -55,6 +59,13 @@
     left: 50%;
     transform: translate(-50%, -50%);
     line-height: 100px;
+}
+.hea{
+  color: white;
+  text-align: center;
+   font-family: Montserrat;
+   font-weight: 900px;
+   font-size: 20px
 }
 .book{
   display: flex;
@@ -68,8 +79,197 @@
   height: 250px;
 }
 
+  }
+
+  @media screen and (max-width: 718px) {
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      line-height: 90px;
+  }
+.hea{
+  font-size: 19px;
+}
+.pencil{
+  display: none;
+}
+.pen{
+  display: none;
+}
+.book{
+  display: none;
+}
+.cup{
+  display: none;
+}
+.but{
+  position: absolute;
+  width: 180px;
+  height: 50px;
+margin-left: -10px;
+ margin-top: 20px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  font-size: large;
+  border-radius: 10px;
+}
+  }
+  @media screen and (max-width:703px) {
+    .but{
+      position: absolute;
+      width: 180px;
+      height: 50px;
+    margin-left: -10px;
+     margin-top: 20px;
+      background-color: transparent;
+      color: white;
+      border: 1px solid white;
+      font-size: large;
+      border-radius: 10px;
+    }
+    .hea{
+      font-size: 18px;
+    }
+  } 
+  @media screen and (max-width:647px) {
+    .but{
+      position: absolute;
+      width: 180px;
+      height: 50px;
+    margin-left: -10px;
+     margin-top:30px;
+      background-color: transparent;
+      color: white;
+      border: 1px solid white;
+      font-size: large;
+      border-radius: 10px;
+    }
+    .hea{
+      font-size: 17px;
+    }
+  } 
+  @media screen and (max-width:611px) {
+    .hea{
+      font-size: 16px;
+    }
+  }
+  @media screen and (max-width:630px) {
+    .but{
+      position: absolute;
+      width: 180px;
+      height: 50px;
+    margin-left: -10px;
+     margin-top:30px;
+      background-color: transparent;
+      color: white;
+      border: 1px solid white;
+      font-size: large;
+      border-radius: 10px;
+    }
+  }
+
+
+  @media screen and (max-width:600px) {
+    .but{
+      position: absolute;
+      width: 180px;
+      height: 50px;
+    margin-left: -20px;
+     margin-top:30px;
+      background-color: transparent;
+      color: white;
+      border: 1px solid white;
+      font-size: large;
+      border-radius: 10px;
+    }
+  }
+
+
+  @media screen and (max-width:575px) {
+    .but{
+      position: absolute;
+      width: 180px;
+      height: 50px;
+    margin-left: -25px;
+     margin-top:30px;
+      background-color: transparent;
+      color: white;
+      border: 1px solid white;
+      font-size: large;
+      border-radius: 10px;
+    }
+    .hea{
+      font-size: 15px;
+    }
+  } 
+
+
+
+  @media screen and (max-width:539px) {
+    .but{
+      position: absolute;
+      width: 180px;
+      height: 50px;
+    margin-left: -30px;
+     margin-top:30px;
+      background-color: transparent;
+      color: white;
+      border: 1px solid white;
+      font-size: large;
+      border-radius: 10px;
+    }
+    .hea{
+      font-size: 14px;
+    }
+  } 
+  @media screen and (max-width:505px) {
+    .but{
+      position: absolute;
+      width: 180px;
+      height: 50px;
+    margin-left: -25px;
+     margin-top:30px;
+      background-color: transparent;
+      color: white;
+      border: 1px solid white;
+      font-size: large;
+      border-radius: 10px;
+    }
+    .hea{
+      font-size: 13px;
+    }
+  } 
+
+  @media screen and (max-width: 467px) {
+    .centered {
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      line-height: 10px;
+  }
+  
+  .but{
+    position: absolute;
+    width: 180px;
+    height: 50px;
+  margin-left: -10px;
+
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    font-size: large;
+    border-radius: 10px;
 
   }
+  .hea{
+    font-size: 12px;
+  }
+  }
+
 
   @media screen and (max-width: 500px) {
     .centered {
@@ -77,14 +277,14 @@
         top: 45%;
         left: 50%;
         transform: translate(-50%, -50%);
-        line-height: 30px;
+        line-height: 100px;
     }
     .but{
         position: absolute;
         width: 180px;
         height: 50px;
-      margin-left: -40px;
-        top: 250px;
+      margin-left: -30px;
+      margin-top: -70px;
         background-color: transparent;
         color: white;
         border: 1px solid white;
@@ -114,7 +314,8 @@
     width: 180px;
     height: 50px;
     left: 30%;
-    top: 250px;
+    /* top: 250px; */
+    margin-top: 30px;
     background-color: transparent;
     color: white;
     border: 1px solid white;
@@ -125,13 +326,87 @@
  
 
   }
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 401px) {
+    .centered {
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      line-height: 100px;
+  }
+  
+  .but{
+    position: absolute;
+    width: 180px;
+    height: 50px;
+  margin-left: -38px;
+
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    font-size: large;
+    border-radius: 10px;
+ 
+
+  }
+  .hea{
+    font-size: 13px;
+  }
+  }
+  @media screen and (max-width: 395px) {
+    .centered {
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      line-height: 60px;
+  }
+  .hea{
+    font-size: 10px !important;
+  }
+  }
+  @media screen and (max-width: 377px) {
+
+
+    .hea{
+      font-size: 12px;
+    }
+    .but{
+      position: absolute;
+      width: 180px;
+      height: 50px;
+    margin-left: -30px;
+  
+      background-color: transparent;
+      color: white;
+      border: 1px solid white;
+      font-size: large;
+      border-radius: 10px;
+   
+  
+    }
+  }
+
+
+
+
+  @media screen and (max-width: 431px) {
+    .hea{
+      font-size: 11px;
+    }
+  }
+  @media screen and (max-width: 349px) {
+    .hea{
+      font-size: 11px;
+    }
+  }
+  @media screen and (max-width: 360px) {
     .but{
         position: absolute;
         width: 180px;
         height: 50px;
         margin-left: -50px;
-        top: 320px;
+       
         background-color: transparent;
         color: white;
         border: 1px solid white;
@@ -142,5 +417,12 @@
       .para{
         font-size: 20px;
       }
+      .hea{
+        font-size: 9px !important;
+      }
   }
-      
+  @media screen and (max-width: 325px) {
+    .hea{
+      font-size: 8px !important;
+    }
+  }

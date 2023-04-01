@@ -148,41 +148,29 @@ function NavBar() {
               >
                <Link to="/Contact" className="li">Contact</Link>
               </Typography>
-
-              <Button
-                className="logout"
-                sx={{
-                  my: 2,
-                  color: "white",
-                  display: "block",
-                  marginRight: "10px",
-                  fontSize: "20px",
-                  borderRadius: "10px",
-                  top: "10px",
-                  fontFamily:'Montserrat'
-                }}
-              >
-                <img src={login} alt="login" style={{ height: "20px" }}></img>
-                <span style={{ marginLeft: "5px" }}>
-                  <Link to='/login' className="li">Login</Link>
-                </span>
-              </Button>
-
-              <Button
-                className="bell"
-                sx={{
-                  my: 2,
-                  color: "white",
-                  backgroundColor: "#1F90F3",
-                  display: "block",
-                  marginRight: "20px",
-                  borderRadius: "50px",
-                  top: "5px",
-                  fontFamily:'Montserrat'
-                }}
-              >
-                       <Link to="/register" className="li">Register</Link>
-              </Button>
+              <div class="dropdow">
+  <Button class="dropbt">  <img src={login} alt="login" style={{ height: "20px" }} className='i'></img>
+  
+  <div className="spa">
+             Login
+                </div>
+  </Button>
+  <div class="dropdown-conten">
+ <div className="d"> <Link to='/login' className="lii">Login<span> As </span>Tutor</Link></div>
+ <div className="d">Login<span> As </span>Student</div> 
+  </div>
+</div>
+            
+            <div class="dropdo">
+  <Button class="dropb">  
+  Register
+  </Button>
+  <div class="dropdown-conte">
+ <div className="d"> <Link to="/register" className="lii">SignUp<span> As </span>Tutor</Link></div>
+ <div className="d"> <Link to="/register" className="lii">SignUp<span> As </span>Student</Link></div>
+  </div>
+</div>
+           
             </>
           </Box>
 
@@ -276,46 +264,35 @@ function NavBar() {
                   >
                    <Link to="/Contact" style={{textDecoration:'none',color:'#1F90F3'}} >Contact</Link>
                   </Typography>
+                  <div class="dropd">
+  <Button class="drop">  <img src={login} alt="login" style={{ height: "20px" }} className='i'></img>
+  
+  <div className="sp">
+             Login
+                </div>
+  </Button>
+  <div class="dropdown-cont">
+ <div className="d"> <Link to='/login' className="lii">Login<span> As </span>Tutor</Link></div>
+ <div className="d">Login<span> As </span>Student</div> 
+  </div>
+</div>
 
-                  <Button
-                    className="logout"
-                    sx={{
-                      my: 2,
-                      color: "white",
-                  backgroundColor: "#1F90F3",
-                  border: "1px solid 1F90F3",
-                      display: "block",
-                      borderRadius: "50px",
-                     fontFamily:'Montserrat',
-                      width: "100px",
-                     
-                      marginLeft: "20px",
-                    
-                    }}
-                  >
-                  <PersonIcon sx={{marginBottom:'-5px'}}/>
-                <span style={{ marginLeft: "5px" }}>
-                  <Link to='/login'  style={{textDecoration:'none',color:'white'}}>Login</Link>
-                </span>
-                  </Button>
 
-                  <Button
-                    className="bell"
-                    sx={{
-                      my: 2,
-                      color: "white",
-                  backgroundColor: "#1F90F3",
-                  border: "1px solid 1F90F3",
-                      display: "block",
-                      
-                      marginLeft: "20px",
-                      width: "100px",
-                      borderRadius: "50px",
-                     fontFamily:'Montserrat'
-                    }}
-                  >
-                     <Link to="/register" style={{textDecoration:'none',color:'white'}}>Register</Link>
-                  </Button>
+
+<div class="dro">
+  <Button class="dr">  <img src={login} alt="login" style={{ height: "20px" }} className='i'></img>
+  
+  <div className="spp">
+  Register
+                </div>
+  </Button>
+  <div class="dropdown-con">
+  <div className="d"> <Link to="/register" className="lii">SignUp<span> As </span>Tutor</Link></div>
+ <div className="d"> <Link to="/register" className="lii">SignUp<span> As </span>Student</Link></div>
+  </div>
+</div>
+
+               
                 </>
               </Box>
             </Menu>

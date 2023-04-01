@@ -16,11 +16,12 @@ const Community = () => {
         
         <p className='comm'>
 
-        Tutors Community is a platform where tutor’s  make life easy for any student enrolled in a 
-        module where the tutor did exceptionally well .The idea is to elevate students confidence and 
-        marks in any module he/she enrolled to.Tutors Community was established in 2021 with an idea
-         of make life easy for any student which might be struggling to understand anything related to his/her studies.Tutors Community welcomes you
-          in a platform and in the community of teachers.  
+        Tutors Community is a platform where tutor’s <br/> make life easy for any student enrolled in a <br/>
+        module where the tutor did exceptionally well <br/>.The idea is to elevate students confidence and <br/>
+        marks in any module he/she enrolled to.Tutors<br/> Community was established in 2021 with an idea<br/>
+         of make life easy for any student which might<br/> be struggling to understand anything related to <br/>his/her studies.Tutors Community welcomes you<br/>
+          in a platform and in the community of teachers. 
+        
 
        </p>
      </div>

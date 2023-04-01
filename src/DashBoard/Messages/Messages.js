@@ -94,18 +94,6 @@ const Messages = () => {
     <p className='Lorem'>Lorem Ipsum is simply dummy text of the printing</p>
   </div>
 </div>
-{/* <div className='chat-four'>
-<div  className='gir'>
-    <img src={girl} alt='girl'  className='girl'/>
-    <p className='Gets'>Mustafa Arif</p>
-    <p className='Lorem'>Lorem Ipsum is simply dummy text of the printing</p>
-  </div>
- 
-</div> */}
-
-
-
-
 
   </div>
   <div class="flex-item-right">

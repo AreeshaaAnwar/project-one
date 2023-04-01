@@ -28,7 +28,7 @@ const Chat = () => {
  </div>
 <div className='chat-two'>
 <div className='not'>
-  <NotificationsIcon sx={{color:' #074276',fontSize:'50px'}}/>
+  <NotificationsIcon sx={{color:' #074276',fontSize:'50px'}} className='x'/>
  </div>
  <p className='Get'>Get notified of new messages</p>
 </div>

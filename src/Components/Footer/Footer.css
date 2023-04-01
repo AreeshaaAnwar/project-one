@@ -110,6 +110,7 @@ color: white;
         font-size: 15px;
       
     }
+  
 
 .Newsletter{
     display: flex;
@@ -180,9 +181,7 @@ color: white;
 
 }
 
-
-
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 766px) {
   
     .footcards{
         max-width: 100px;
@@ -191,7 +190,47 @@ color: white;
         display: flex;
         justify-content: flex-start;
       flex-direction: column;
-      margin-top: -150px;
+      margin-top: -320px;
+      /* margin-right: 270px;   */
+      margin-left: 50px;
+    }
+  
+  .Copyright{
+  margin-right: 60px;
+  }
+     .footcardds{
+        max-width: 100px;
+        margin: 0 auto;
+        gap: 2rem;
+        display: flex;
+        justify-content: flex-start;
+      flex-direction: column;
+      /* margin-top: -280px; */
+      margin-left: 50px; 
+    } 
+    .Newsletter{
+        display: flex;
+        justify-content: center;
+        margin-top: -10px;
+        flex-direction: column;
+        margin-left: 50px; 
+        padding-bottom: 20px;
+    }
+   
+    
+
+}
+
+/* @media screen and (max-width: 400px) {
+  
+    .footcards{
+        max-width: 100px;
+        margin: 0 auto;
+        gap: 2rem;
+        display: flex;
+        justify-content: flex-start;
+      flex-direction: column;
+      margin-top: -120px;
       margin-right: 220px;  
     }
   
@@ -202,12 +241,12 @@ color: white;
         gap: 2rem;
         display: flex;
         justify-content: flex-start;
-      flex-direction: column;
+      flex-direction: column; */
       /* margin-top: -280px; */
-      margin-right: 220px;  
+      /* margin-right: 220px;  
     } 
 
-}
+} */
 
 
 @media screen and (max-width: 320px) {
@@ -237,5 +276,32 @@ color: white;
 }
 
 
+@media screen and (max-width: 501px) {
 
+    .footcards{
+        max-width: 100px;
+        margin: 0 auto;
+        gap: 2rem;
+        display: flex;
+        justify-content: flex-start;
+      flex-direction: column;
+      margin-top: -250px;
+    margin-left: 50px;
+    }
+
+}
+@media screen and (max-width: 400px) {
+
+    .footcards{
+        max-width: 100px;
+        margin: 0 auto;
+        gap: 2rem;
+        display: flex;
+        justify-content: flex-start;
+      flex-direction: column;
+      margin-top: -200px;
+    margin-left: 50px;
+    }
+
+}
     

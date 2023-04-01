@@ -1,11 +1,14 @@
 import React from 'react'
 import upcomming from '../../Images/upcomming.png'
 import {useNavigate} from 'react-router-dom'
+import StudentDash from '../../StudentDashBoard/StudentDash'
 const Proposal = () => {
     const navigate=useNavigate();
   return (
    
     <div>
+     <StudentDash/>
+       <div style={{backgroundColor:'#F5F5F5',minHeight:'90vh', width: '100%' }}>
         <div className='Available'>
   <div className="Available-left">
     <div className='up'>
@@ -56,6 +59,7 @@ const Proposal = () => {
       
     </div>
   </div>
+</div>
 </div>
     </div>
   )

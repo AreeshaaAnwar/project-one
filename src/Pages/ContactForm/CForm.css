@@ -83,16 +83,38 @@ font-family: Montserrat;
     flex-direction: column;
     }
   }
-
+  @media (max-width: 372px) {
+    .inpp{
+      width: 70%;
+    }
+    .inputt{
+      width: 70%;
+      margin-left: -3px;
+    }
+  }
+  @media (max-width: 366px) {
+    .inpp{
+      width: 75%;
+    }
+    .inputt{
+      width: 75%;
+      margin-left: -3px;
+    }
+  }
   @media (max-width: 320px) {
     .Area{
         width: 250px;
 
     }
-    .inputt{
-        margin-right: 15px;
-        width: 163px;
-    }
+  
 
   }
 
+  @media (max-width: 375px) {
+
+
+
+    .Area{
+      width: 250px;
+    }
+  }

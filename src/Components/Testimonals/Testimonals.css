@@ -45,14 +45,59 @@
   .circle{
  
     position: absolute;
-   left: 80px;
+   /* left: 80px; */
    top: 30px;
+   margin-left: 80px;
   }
   .circle-two{
     position: absolute;
-   left: 80px;
+   /* left: 80px; */
+   top: 60px;
+   margin-left: 80px;
+  }
+  @media (max-width: 700px) {
+   .circle{
+ 
+    position: absolute;
+   /* left: 80px; */
+   top: 30px;
+   margin-left: -10px;
+  }
+  .circle-two{
+    position: absolute;
+    margin-left: -10px;
    top: 60px;
   }
+  }
+  @media (max-width: 645px) {
+    .circle{
+  
+     position: absolute;
+    /* left: 80px; */
+    top: 30px;
+    margin-left: -20px;
+   }
+   .circle-two{
+     position: absolute;
+     margin-left: -20px;
+    top: 60px;
+   }
+   }
+   @media (max-width: 580px) {
+    .circle{
+  
+     position: absolute;
+    /* left: 80px; */
+    top: 30px;
+    margin-left: -35px;
+   }
+   .circle-two{
+     position: absolute;
+     margin-left: -35px;
+    top: 60px;
+   }
+   }
+ 
   .col{
     height: 10vh;
     background-color: #0C2647;
@@ -76,13 +121,19 @@
    padding-bottom: 20px;
     
   }
-  @media (min-width: 600px) {
+  @media (max-width: 700px) {
     .tests {
       grid-template-columns: repeat(2, 1fr);
       padding: 30px;
     }
   }
-  @media (max-width: 599px) {
+  @media (max-width:800px) {
+    .tests {
+      grid-template-columns: repeat(2, 1fr);
+      padding: 30px;
+    }
+  }
+  @media (max-width: 500px) {
     .tests {
       grid-template-columns: repeat(1, 1fr);
       padding: 50px;

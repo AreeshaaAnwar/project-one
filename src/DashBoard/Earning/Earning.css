@@ -8,7 +8,7 @@
   font-family: Montserrat;
 }
 .earns{
-    margin-top: -10px;
+    margin-top: 1px;
     display: flex;
     justify-content: flex-end;
   margin-right: 50px;
@@ -19,6 +19,18 @@
 @media (max-width: 400px) {
     .earn{
         font-size: 15px;
+    }
+}
+@media (max-width: 340px) {
+    .earn{
+        font-size: 13px;
+        margin-left: 30px;
+
+        margin-top: -50px;
+    }
+    .earns{
+        font-size: 13px;
+        margin-top: 1px;
     }
 }
 @media (max-width: 320px) {

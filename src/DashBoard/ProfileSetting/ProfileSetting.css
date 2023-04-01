@@ -46,26 +46,115 @@ font-family: Montserrat;
 .input-one{
     flex-direction: column;
 }
-}
-@media (max-width: 500px) {
-.multiline{
-    width: 250px;
-}
-.Emai{
-    width: 250px; 
+.input-one{
+    margin-top:-10px;
 }
 }
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     .multiline{
-        width: 200px;
+        width: 300px;
     }
     .Emai{
-        width: 200px; 
+        width: 300px; 
     }
     }
 
 
+    @media (max-width: 565px) {
+        .canc{
+            display: flex;
+            justify-content: flex-end;
+          padding-left: 50px;
+            padding-top: 20px;
+            font-family: Montserrat;
+            width: 70%;
+        }
+        .multiline{
+            width: 270px;
+        }
+        .Emai{
+            width: 270px; 
+        }
+    }
 
+    @media (max-width: 520px) {
+        .canc{
+            display: flex;
+            justify-content: flex-end;
+          padding-left: 60px;
+            padding-top: 20px;
+            font-family: Montserrat;
+            width: 70%;
+        }
+        .multiline{
+            width: 250px;
+        }
+        .Emai{
+            width: 250px; 
+        }
+    }
+
+    @media (max-width: 500px) {
+        .multiline{
+            width: 300px;
+        }
+        .Emai{
+            width: 300px; 
+        } 
+        .item-one{
+            margin-bottom: 30px;
+        }
+    }
+  
+    @media (max-width: 440px) {
+        .multiline{
+            width: 280px;
+        }
+        .Emai{
+            width: 280px; 
+        } 
+       
+    }
+    @media (max-width: 410px) {
+        .multiline{
+            width: 260px;
+        }
+        .Emai{
+            width: 260px; 
+        } 
+     .cane{
+        font-size: 13px;
+     }
+    }
+@media (max-width: 400px) {
+    .multiline{
+        width: 240px;
+    }
+    .Emai{
+        width: 240px; 
+    }
+    }
+
+
+    @media (max-width: 381px) {
+        .multiline{
+            width: 220px;
+        }
+        .Emai{
+            width: 220px; 
+        }
+        }
+        @media (max-width: 340px) {
+            .multiline{
+                width: 200px;
+            }
+            .Emai{
+                width: 200px; 
+            }
+            .cane{
+                font-size: 12px;
+             }
+            }
     @media (max-width: 320px) {
 .input-one{
 margin-left: -20px;

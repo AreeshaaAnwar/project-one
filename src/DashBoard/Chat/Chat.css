@@ -4,7 +4,16 @@
  
 }
 
-
+p.Lorem{
+    
+  display: flex;
+  justify-content: center;
+/* margin-top: 60px; */
+padding-top: 45px;
+  color: #00000080;
+margin-left: 30px  !important;
+font-size: 12px; 
+}
 .flex-containers {
     display: flex;
     flex-direction: row;
@@ -59,14 +68,578 @@ padding-top: 250px;
    font-weight: 500;
    
   }
-  .Lorem{
-    font-size: 12px;
-    display: flex;
-    justify-content: center;
-    margin-top: 60px;
-    color: #00000080;
+  @media screen and (max-width: 800px) {
+    .flex-item-left{
+      flex: 40%;
+    }
+    .flex-item-right{
+      flex: 60%;
+    }
+    .girl{
+      width: 60px;
+      height: 60px;
+      margin-left: 10px;
+      margin-top: -5px;
+     }
+     
+    .vectorIcon{
+      width: 30px;
+      height: 30px;
     margin-left: 30px;
+    padding-bottom: 5px;
+    
+    }
+    .vector{
+      margin-left: -100px;
+     padding-bottom: 5px;
+     width: 30px;
+     height: 30px;
+     }
+     .icons{
+    /* margin-top: 5px; */
+    margin-left: 20px;
+     }
+    
+    .gir{
+      padding: 5px;
+    }
+    .Get{
+      font-size: 13px;
+      margin-top: -30px;
+      margin-left: 45px;
+    }
+    
+    .sear{
+      
+    position: absolute;
+    margin-right: 240px;
+    }
+    .Gets{
+     margin: -20%;
+    margin-left: -80px;
+    }
+    p.Lorem{
+      display: flex;
+      justify-content: center;
+margin-top: 5px;
+      color: #00000080;
+    margin-left: 85px  !important;
+    font-size: 12px; 
+    }
+    
+      }
+      
+  @media screen and (max-width: 750px) {
+    .Gets{
+      font-size: 17px;
+    display: flex;
+   justify-content: center;
+   margin: -13%;
+padding-left: 10px;
+   font-weight: 500;
+   margin-top: -70px;
+   margin-left: -50px;
+    }
+    p.Lorem{
+      font-size: 11px;
+      margin-left: 85px;
+     margin-top: -50px;
+    }
+    .status{
+      position: absolute;
+      margin-left: -20px;
+        padding-top: 15px;
+    }
   }
+
+
+
+  @media screen and (max-width: 731px) {
+   
+    p.Lorem{
+      font-size: 11px;
+      margin-left: 85px;
+      padding-top: 50px !important;
+    }
+  }
+  @media screen and (max-width: 720px) {
+    /* .Gets{
+      font-size: 17px;
+    display: flex;
+   justify-content: center;
+   margin: -13%;
+padding-left: 25px;
+   font-weight: 500;
+   margin-top: -10px;
+    } */
+    .Gets{
+      font-size: 17px;
+    display: flex;
+   justify-content: center;
+   margin: -13%;
+padding-left: 10px;
+   font-weight: 500;
+   margin-top: -70px;
+   margin-left: -45px;
+    }
+    .sear{
+      padding-left: 10px;
+    }
+    .mess-two{
+      padding-left: 5px;
+      padding-right: 5px;
+   }
+   .messs{
+      padding-left: 5px;
+      padding-right: 5px;
+   }
+   .center-div{
+     
+    padding-right: 20px;
+    font-size: 12px !important
+   
+}
+    /* p.Lorem{
+      font-size: 11px;
+      margin-left: 105px;
+     margin-top: 10px;
+    } */
+  
+    .status{
+      position: absolute;
+   margin-left: -30px;
+     padding-top: 15px;
+      
+    }
+  }
+  @media screen and (max-width: 710px) {
+    .sear{
+   padding-left: 10px;
+    }
+ 
+    .Gets{
+      font-size: 17px;
+    display: flex;
+   justify-content: center;
+   margin: -13%;
+padding-left: 10px;
+   font-weight: 500;
+   margin-top: -70px;
+   margin-left: -40px;
+    }
+  }
+
+
+  @media screen and (max-width: 700px) {
+    .sear{
+      padding-left: 20px;
+    }
+    .Get{
+      font-size: 13px;
+      display: flex;
+     justify-content: center;
+   
+   padding-left: 15px;
+     }
+    p.pos{
+      font-size: 15px;
+      margin-top: 5px;
+     }
+     .Gets{
+      font-size: 17px;
+    display: flex;
+   justify-content: center;
+   margin: -13%;
+padding-left: 10px;
+   font-weight: 500;
+   margin-top: -70px;
+   margin-left: -35px;
+    }
+  
+    }
+  
+
+  @media screen and (max-width: 695px) {
+  
+    .Gets{
+      font-size: 17px;
+    display: flex;
+   justify-content: center;
+   margin: -13%;
+padding-left: 10px;
+   font-weight: 500;
+   margin-top: -65px !important;
+    }
+ 
+
+
+  }
+  @media screen and (max-width: 685px) {
+  
+    .Gets{
+      font-size: 17px;
+    display: flex;
+   justify-content: center;
+   margin: -13%;
+padding-left: 15px;
+   font-weight: 500;
+   margin-top: -65px !important;
+    }
+ 
+    .status{
+      position: absolute;
+      margin-left: -60px;
+        padding-top: 15px;
+    }
+    .Get{
+      font-size: 12px;
+      display: flex;
+     justify-content: center;
+   
+   padding-left: 10px;
+     }
+  }
+
+  @media screen and (max-width: 675px) {
+p.Get{
+  font-size: 11px;
+  margin-top: -30px;
+  margin-left: 25px;
+}
+.Gets{
+  font-size: 17px;
+display: flex;
+justify-content: center;
+margin: -13%;
+padding-left: 20px;
+font-weight: 500;
+margin-top: -65px !important;
+}
+  }
+  @media screen and (max-width: 661px) {
+   
+    .flex-item-right{
+        display: none;
+    }
+    .status{
+      position: absolute;
+      margin-left: 340px;
+        padding-top: 15px;
+    }
+p.Get{
+  font-size: 25px;
+  margin-top: -40px;
+  margin-left: -100px
+}
+.sear{
+  padding-right: 200px;
+  padding-top: 3px;
+ 
+}
+p.pos{
+  font-size: 20px;
+}
+p.Gets{
+  margin-top: -60px;
+  padding-right: 350px;
+}
+p.Lorem{
+  margin-top: 35px;
+  padding-right: 240px;
+
+ 
+ }
+       }
+
+       @media screen and (max-width: 650px) {
+        .status{
+          position: absolute;
+          margin-left: 320px;
+            padding-top: 15px;
+        }
+       }
+  @media screen and (max-width: 630px) {
+    p.Get{
+      margin-left: -120px;
+    }
+    p.Gets{
+      padding-left: 70px;
+    }
+    p.Lorem{
+      margin-top: 35px;
+      padding-right: 190px;
+    
+     
+     }
+     .status{
+      position: absolute;
+      margin-left: 300px;
+        padding-top: 15px;
+    }
+  
+  }
+  @media screen and (max-width: 610px) {
+    .status{
+      margin-left: -50px;
+    }
+    p.Get{
+      margin-left: -55px;
+    
+    }
+    p.pos{
+      font-size: 20px;
+    }
+    .sear{
+      padding-left: 60px;
+    }
+    p.Lorem{
+      margin-top: 35px;
+      padding-right: 180px;
+    
+     
+     }
+    p.Gets{
+ padding-left: 80px;
+ margin-top: -60px;
+    }
+    .status{
+      position: absolute;
+      margin-left: 280px;
+        padding-top: 15px;
+    }
+  }
+  @media screen and (max-width: 590px) {
+p.Gets{
+  padding-left: 90px;
+}
+.status{
+  position: absolute;
+  margin-left: 260px;
+    padding-top: 15px;
+}
+.vector{
+  width: 100px;
+  height: 100px;
+}
+p.Lorem{
+  margin-top: 30px;
+  padding-right: 160px;
+
+ 
+ }
+  }
+
+  
+
+
+  @media screen and (max-width: 565px) {
+  
+
+.sear{
+  padding-right: 160px;
+  padding-top: 2px;
+}
+p.Gets{
+  padding-left: 95px;
+}
+  p.Get{
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  .status{
+    margin-left: 230px;
+  }
+
+  p.Lorem{
+    margin-top: 20px;
+    padding-right: 160px;
+  
+   }
+  }
+  @media screen and (max-width: 555px) {
+.status{
+  margin-left: 220px;
+}
+p.Lorem{
+  margin-top: 20px;
+  padding-right: 150px;
+
+ 
+ }
+  p.Gets{
+    padding-left: 105px;
+  }
+
+
+  }
+
+  @media screen and (max-width: 550px) {
+    .status{
+      margin-left: 220px;
+    }
+    p.Lorem{
+      margin-top: 20px;
+      padding-right: 140px;
+    
+     
+     }
+      p.Gets{
+        padding-left: 115px;
+      }
+
+
+      p.Get{
+        font-size: 20px;
+        margin-right: 40px;
+      }
+      }
+
+
+      @media screen and (max-width: 540px) {
+       
+        p.Lorem{
+          margin-top: 25px;
+          padding-right: 120px;
+        
+         
+         }
+         .status{
+          margin-left: 210px;
+        }
+          p.Gets{
+            padding-left: 135px;
+          }
+          input.text {
+            width: 80%;
+          }
+          .text-div{
+            margin-right: 50px;
+          }
+          .sear{
+            padding-left: 140px;
+          }
+          }
+  @media screen and (max-width: 521px) {
+   p.Get{
+    margin-right: 50px;
+   }
+   .status{
+    margin-left: 190px;
+  }
+  p.Lorem{
+    margin-top: 20px;
+    padding-right: 140px;
+  
+   
+   }
+    p.Gets{
+      padding-left: 120px;
+    }
+
+      }
+         @media screen and (max-width: 500px) {
+.status{
+  margin-left: 170px;
+}
+input.text {
+  width: 80%;
+}
+.sear{
+  padding-left: 140px;
+}
+
+         }
+        @media screen and (max-width: 480px) {
+          input.text {
+            width: 70%;
+          }
+          .sear{
+            padding-left: 180px;
+          }
+          .status{
+            margin-left: 150px;
+          }
+        }
+
+        @media screen and (max-width: 460px) {
+
+          input.text {
+            width: 60%;
+          }
+          .sear{
+            padding-left: 250px;
+          }
+          .status{
+            margin-left: 130px;
+          }
+          .text-div{
+            margin-right: 80px;
+          }
+        }
+
+ 
+        @media screen and (max-width: 441px) {
+          .status{
+            margin-left: 100px;
+        }
+        .text-div{
+          margin-right: 100px;
+        }
+        .sear{
+          padding-left: 270px;
+        }
+        p.pos{
+          font-size: 15px;
+        }
+      }
+        @media screen and (max-width: 430px) {
+          input.text {
+            width: 65%;
+          }
+          .sear{
+            padding-left: 250px;
+          }
+          .status{
+            margin-left: 90px;
+          }
+          .text-div{
+            margin-right: 100px;
+          }
+         
+        }
+
+
+        @media screen and (max-width: 406px) {
+
+          .status{
+            margin-left: 70px;
+          }
+          .text-div{
+            margin-right: 140px;
+          }
+          .sear{
+            padding-left: 270px;
+          }
+          p.Lorem{
+            margin-top: 20px;
+            padding-right: 160px;
+          
+           
+           }
+            p.Gets{
+              padding-left: 100px;
+            }
+            .sear{
+              padding-left: 290px;
+            }
+            p.Get{
+              margin-right: 30px;
+             }
+        }
+
+
+ 
+
   .text-div{
 display: flex;
 justify-content: center;
@@ -145,144 +718,115 @@ margin-left: 25px;
 }
 
 
-  @media screen and (max-width: 800px) {
-.flex-item-left{
-  flex: 40%;
-}
-.flex-item-right{
-  flex: 60%;
-}
 
-.vectorIcon{
-  width: 30px;
-  height: 30px;
-margin-left: 30px;
-padding-bottom: 5px;
-
-}
-.vector{
-  margin-left: -100px;
- padding-bottom: 5px;
- width: 30px;
- height: 30px;
- }
- .icons{
-/* margin-top: 5px; */
-margin-left: 20px;
- }
-
-.gir{
-  padding: 5px;
-}
-.Get{
-  font-size: 13px;
-  margin-left: 45px;
-  margin-top: -30px;
-
-}
-.sear{
-  
-position: absolute;
-margin-right: 240px;
-}
-.Gets{
- margin: -20%;
-margin-left: -100px;
-}
-.Lorem{
-  font-size: 11px;
-  margin-left: 80px;
-}
-
-  }
-  @media screen and (max-width: 500px) {
-    .flex-item-left{
-      flex: 100%;
-    
-    }
-    .flex-item-right{
-     display: none;
-    }
-    .Gets{
-      margin-top: -60px;
-      margin-right: 50px;
-    }
-    .Lorem{
-  padding-top: 25px;
-  margin-right: 80px;
-    }
-    .icons{
-      margin-left: 70px;
-     
-    }
-    .Get{
-      font-size: 20px;
-    /* margin-left: 10px; */
-    margin-right: 10px;
-      margin-top: -9%;
-    }
-    .sear{
-      margin-right: 330px;
-    }
-  .vector{
-    margin-left:10px;
-  margin-bottom: 10px;
-  }
-  .vectorIcon{
-    margin-left: 40px;
-    margin-bottom: 9px;
-  }
-  .icons{
-margin-left: 20px;
-margin-bottom: 5px;
-  }
-
-  }
 
   @media screen and (max-width: 400px) {
-    .vector{
-      margin-left: -40px;
-   margin-bottom: 10px;
-    }
-    .icons{
-      margin-left: 15px;
-     margin-bottom: 5px;
-    }
-  
-  .Get{
-    font-size: 15px;
+   .status{
+    margin-left: 60px;
+   }
+   .text-div{
+    margin-right: 130px;
   }
   .sear{
-    margin-left: 40px;
+    padding-left: 270px;
   }
-  .Gets{
-    margin-left: -50px;
-  }
-  .Lorem{
-    margin: 50px;
-    margin-left: 85px;
+  p.Get{
+    margin-right: 35px;
+  font-size: 18px; 
+  margin-top: -35px;
   }
   }
-  @media screen and (max-width: 320px) {
-    .vector{
- margin-left: -100px;
- /* margin-bottom: 5px; */
+  @media screen and (max-width: 371px) {
+    .status{
+     margin-left: 40px;
     }
-  
-    .Get{
-      margin-left: 70px;
+    .text-div{
+     margin-right: 130px;
+   }
+   .sear{
+     padding-left: 270px;
+   }
+   p.Get{
+     margin-right: 50px;
+   font-size: 16px; 
+   margin-top: -35px;
+   }
+   }
+
+  @media screen and (max-width: 365px) {
+
+    .status{
+      margin-left: 30px;
+     }
+     .text-div{
+      margin-right: 170px;
+    }
+    p.pos{
+      font-size: 15px;
     }
     .sear{
-      margin-left: 100px;
-    }
-    .Gets{
-      margin-left: 10px;
-    }
-    .Lorem{
-      margin-top: 35px;
-    }
-    .icons{
-      margin-left: 30px;
-      margin-bottom: 5px;
+      padding-left: 300px;
     }
   }
+  @media screen and (max-width: 350px) {
+    .status{
+      margin-left: 20px;
+     }
+     .text-div{
+      margin-right: 170px;
+    }
+    p.Get{
+      margin-right: 70px;
+    font-size: 15px; 
+    margin-top: -35px;
+    }
+
+  }
+  @media screen and (max-width: 340px) {
+    .status{
+      margin-left: 10px;
+     }
+    p.Lorem{
+      font-size: 10px !important ;
+      padding-right: 200px;
+      
+    }
+      p.Gets{
+       font-size: 15px !important
+      }
+      p.Get{
+        margin-right: 90px;
+        margin-top: -35px;
+        font-size: 15px;
+       }
+       .sear{
+        padding-left:320px;
+      }
+      p.pos{
+        font-size: 13px;
+      }
+  }
+  @media screen and (max-width: 325px) {
+    .status{
+      margin-left: 0px;
+     }
+     /* .sear{
+      padding-left:290px;
+    } */
+   
+  }
+
+
+
+
+  @media screen and (max-width: 768px) {
+  
+      p.Lorem{
+        font-size: 11px;
+        margin-left: 85px;
+        padding-top: 50px;
+      }
+    
+  }
+
+

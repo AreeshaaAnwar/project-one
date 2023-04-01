@@ -1,10 +1,12 @@
 import React from 'react'
 import './CurrentSession.css'
 import upcomming from '../../Images/upcomming.png'
-
+import StudentDash from '../../StudentDashBoard/StudentDash'
 const CurrentSession = () => {
   return (
     <div>
+    <StudentDash/>
+       <div style={{backgroundColor:'#F5F5F5',minHeight:'90vh', width: '100%' }}>
     <div className='Available'>
   <div className="Available-left">
 <div className='curre'>
@@ -38,7 +40,7 @@ const CurrentSession = () => {
   </div>
   </div>
     
-    
+    </div>
     
     </div>
   )

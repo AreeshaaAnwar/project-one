@@ -62,7 +62,8 @@ export default function ScrollableTabsButtonPrevent() {
   };
 
   return (
-    <Box sx={{ width: '100%',backgroundColor:'#F5F5F5;',minHeight:'90vh' }}>
+    
+    <Box sx={{ width: '100%',backgroundColor:'#F5F5F5',minHeight:'90vh' }}>
     <Box sx={{  bgcolor: '#074276' }}>
 
       <Tabs
@@ -141,7 +142,7 @@ export default function ScrollableTabsButtonPrevent() {
       <TabPanel value={value} index={3}>
        Item four
       </TabPanel>
-      <TabPanel value={value} index={4}>
+      <TabPanel value={value} index={4} >
       <Earning/>
       </TabPanel>
       <TabPanel value={value} index={5}>

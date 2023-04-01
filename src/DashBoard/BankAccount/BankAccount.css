@@ -91,3 +91,23 @@ font-family: Montserrat;
         margin-left: 15px;
     }
 }
+
+
+@media (max-width: 355px) {
+    .addbut{
+        margin-top: -60px;
+        display: flex;
+        justify-content: flex-end;
+        padding: 20px;
+        font-family: Montserrat;
+    }
+    .add{
+    height: 30px;
+    border-radius: 5px;
+    background-color: #074276;
+    border: #074276;
+    color: white;
+    font-family: Montserrat;
+    font-size: 10px;
+    }
+}

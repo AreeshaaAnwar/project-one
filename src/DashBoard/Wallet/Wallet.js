@@ -1,10 +1,11 @@
 import React from 'react'
 import './Wallet.css'
-
+import StudentDash from '../../StudentDashBoard/StudentDash'
 const Wallet = () => {
   return (
     <div>
-
+<StudentDash/>
+       <div style={{backgroundColor:'#F5F5F5',minHeight:'90vh', width: '100%' }}>
 
 <div className='Available'>
   <div className="Available-left">
@@ -20,6 +21,7 @@ const Wallet = () => {
    <div className='wallet'>
    <div className='wallbut'>  <button className='wal' >ADD AMOUNT</button></div>
    </div>
+    </div>
     </div>
     </div>
     </div>

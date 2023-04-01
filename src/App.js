@@ -1,6 +1,6 @@
 import './App.css';
 import Home from './Components/Home/Home'
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes} from "react-router-dom";
 import About from './Pages/About';
 import Contact from './Pages/Contact/Contact';
 import Register from './Pages/Register/Register';
@@ -9,16 +9,22 @@ import ForgetPass from './Pages/Password/ForgetPass';
 import NewPass from './Pages/Password/NewPass';
 import Chat from './DashBoard/Chat/Chat'
 import Messages from './DashBoard/Messages/Messages';
-import DashBoard from './DashBoard/DashBoard/DashBoard';
+// import DashBoard from './DashBoard/DashBoard/DashBoard';
 import ProposalDetails from './DashBoard/Proposal/ProposalDetails';
 import BankAccount from './DashBoard/BankAccount/BankAccount';
 import ProfileSetting from './DashBoard/ProfileSetting/ProfileSetting';
 import StudentProposal from './DashBoard/StudentProposal/StudentProposal'
 import CheckOut from './DashBoard/CheckOut/CheckOut';
-
+import StudentDash from './StudentDashBoard/StudentDash';
+import RequestLesson from './DashBoard/RequestLesson/RequestLesson';
+import Proposal from './DashBoard/Proposal/Proposal';
+import CurrentSession from './DashBoard/CurrentSession/CurrentSession';
+import Wallet from './DashBoard/Wallet/Wallet';
+import Ta from './DashBoard/Tabs/Tabs'
 
 
 function App() {
+
   return (
     <div>
   
@@ -34,12 +40,20 @@ function App() {
 <Route path='/NewPass' element={<NewPass/>}></Route>
 <Route path='/chat' element={<Chat/>}></Route>
 <Route path='/messages' element={<Messages/>}></Route>
-<Route path='/DashBoard' element={<DashBoard/>}></Route>
+{/* <Route path='/DashBoard' element={<DashBoard/>}></Route> */}
 <Route path='/ProposalDetails' element={<ProposalDetails/>}></Route>
 <Route path='/BankAccount' element={<BankAccount/>}></Route>
 <Route path='/ProfileSetting' element={<ProfileSetting/>}></Route>
 <Route path='/StudentProposal' element={<StudentProposal/>}></Route>
 <Route path='/CheckOut' element={<CheckOut/>}></Route>
+<Route path='/Tabs' element={<Ta/>}></Route>
+
+<Route path='/StudentDash' element={<StudentDash/>}></Route>
+<Route path='/Proposal' element={<Proposal/>}></Route>
+<Route path='/CurrentSession' element={<CurrentSession/>}></Route>
+<Route path='/Wallet' element={<Wallet/>}></Route>    
+        
+          <Route path='/RequestLesson' element={<RequestLesson/>}></Route>   
 
       </Routes>
     </BrowserRouter>
@@ -50,3 +64,5 @@ function App() {
 }
 
 export default App;
+
+

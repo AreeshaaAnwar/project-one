@@ -86,7 +86,7 @@ font-family: Montserrat ;
     width:90px;
     height:90px;
     margin-top:-50px;
-    margin-left: -40px;
+    margin-left: -50px;
 position: absolute;
 
   }
@@ -127,5 +127,13 @@ margin-top: -100px;
             
         margin-top: 50px;
         }
+       
+  }
+  @media (max-width: 600px) {
+   
+    .item-one{
+            
+      margin-top: -50px;
+      }
        
   }

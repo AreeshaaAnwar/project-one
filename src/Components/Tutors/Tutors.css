@@ -32,17 +32,81 @@
     font-family: Montserrat;
    }
   
-   @media (max-width: 500px) {
+   @media (max-width: 730px) {
    .tutor .Communit{
 text-align: center;
 font-family: Montserrat;
-padding: 10px;
+font-size: 13.7px;
    }
-  
+   .tutor  .Benefits{
+    text-align: center;
+   margin-top: -40px;
+   font-size: 25px;
+   font-family: Montserrat;
+
+   }
   }
-
+  @media (max-width: 625px) {
+    .tutor .Communit{
+ text-align: center;
+ font-family: Montserrat;
+ font-size: 11px;
+    }
+    .tutor  .Benefits{
+     text-align: center;
+    margin-top: -40px;
+    font-size: 20px;
+    font-family: Montserrat;
  
+    }
+   }
 
+  @media (max-width: 500px) {
+    .tutor .Communit{
+      text-align: center;
+      font-family: Montserrat;
+      font-size: 9px;
+         }
+         .tutor  .Benefits{
+          text-align: center;
+         margin-top: -40px;
+         font-size: 17px;
+         font-family: Montserrat;
+      
+         }
+       
+   
+   }
+
+   @media (max-width: 420px) {
+    .tutor .Communit{
+      text-align: center;
+      font-family: Montserrat;
+      font-size: 9px;
+padding: 20px;
+         }
+         .tutor  .Benefits{
+          text-align: center;
+         margin-top: -40px;
+         font-size: 15px;
+         font-family: Montserrat;
+      
+         }
+   
+   }
+   @media (max-width: 365px) {
+.tutor .Benefits{
+font-size: 14px;
+}
+
+   }
+   @media (max-width: 335px) {
+    .tutor .Benefits{
+    font-size: 12px;
+    }
+    
+    
+       }
    .cardds{
     max-width: 700px;
     margin: 0 auto;
@@ -53,33 +117,6 @@ padding: 10px;
    }
 
 
-   @media (min-width: 600px) {
-    .cardds {
-      grid-template-columns: repeat(2, 1fr);
-      padding: 30px;
-    }
-  }
-  @media (max-width: 599px) {
-    .cardds {
-      grid-template-columns: repeat(1, 1fr);
-      padding: 50px;
-      padding-left: 150px;
-    }
-  }
-  @media (max-width: 400px) {
-    .cardds {
-      grid-template-columns: repeat(1, 1fr);
-      padding: 50px;
-      padding-left: 120px;
-    }
-  }
-  @media (max-width: 325px) {
-    .cardds {
-      grid-template-columns: repeat(1, 1fr);
-      padding: 50px;
-      padding-left: 100px;
-    }
-  }
   
   @media (min-width: 900px) {
     .cardds {
@@ -87,4 +124,35 @@ padding: 10px;
     }
    
   }
-  
+  @media (max-width: 800px) {
+    .cardds {
+      grid-template-columns: repeat(2, 1fr);
+      padding-left: 70px;
+    }
+   
+  }
+  @media (max-width: 500px) {
+    .cardds {
+      grid-template-columns: repeat(1,1fr);
+     margin-left: 120px;
+    }}
+    @media (max-width: 450px) {
+      .cardds {
+        grid-template-columns: repeat(1,1fr);
+   margin-left: 100px;
+      }}
+      @media (max-width: 415px) {
+        .cardds {
+          grid-template-columns: repeat(1,1fr);
+       margin-left: 80px;
+        }}
+        @media (max-width: 365px) {
+          .cardds {
+            grid-template-columns: repeat(1,1fr);
+         margin-left: 60px;
+          }}
+          @media (max-width: 325px) {
+            .cardds {
+              grid-template-columns: repeat(1,1fr);
+           margin-left: 40px;
+            }}

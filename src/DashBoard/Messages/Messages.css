@@ -69,6 +69,41 @@ font-family: Montserrat;
    margin-left: 40px;
   padding-bottom: 6px;
 }
+@media screen and (max-width: 740px) {
+    .bar{
+        margin-left: 20px;
+       padding-bottom: 6px;
+     }
+    
+     input.te {
+        margin-left: 50px;
+    }
+}
+
+
+@media screen and (max-width: 707px) {
+    input.te {
+        margin-left: 30px;
+    }
+    p.Type{
+     
+        margin-left: 225px;
+        margin-top: -30px;
+       
+    }
+}
+@media screen and (max-width: 773px) {
+    input.te {
+        margin-left: 20px;
+    }
+    p.Type{
+     
+        margin-left: 210px;
+        margin-top: -30px;
+       
+    }
+}
+
 .right-icon{
 padding: 20px;
 margin-left: 30px;
@@ -91,10 +126,15 @@ margin-left: 30px;
 }
 
 @media screen and (max-width: 800px) {
- 
-    .search{
+ .search{
+margin-left: 340px;
+position: absolute;
+
+margin-top: -65px;
+ }
+    /* .search{
        margin-left: 350px;
-    }
+    } */
     .smi{
         width: 50px;
     }
@@ -141,6 +181,44 @@ margin-left: 30px;
     align-items:center;
     margin-left: 250px;
     margin-top: 30px;
+    
   }
 
 }
+
+
+
+@media screen and (max-width: 701px) {
+    .bar{
+        margin-left: 5px;
+       padding-bottom: 6px;
+     }
+    .center-div{
+        padding-right: 45px;
+        font-size: 15px;
+    }
+
+}
+@media screen and (max-width: 681px) {
+    .mess{
+       padding: 1px;
+    }
+    .mess-two{
+       padding-left: 5px;
+       padding-right: 5px;
+    }
+    .messs{
+       padding-left: 5px;
+       padding-right: 5px;
+    }
+    .center-div{
+     
+        padding-right: 60px;
+        font-size: 13px;
+    }
+    .search{
+        margin-left: 320px;
+    }
+   }
+
+

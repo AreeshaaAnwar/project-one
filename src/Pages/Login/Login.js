@@ -33,7 +33,7 @@ const Login = () => {
 <div className='reg-right'>
 <div style={{display:'flex',justifyContent:'flex-end',color:'grey'}}>
 
-<p style={{marginLeft:'10px'}}><Link to='/register' style={{textDecoration:'none',color:'black'}}>Register</Link></p>
+<p className='lo'><Link to='/register' style={{textDecoration:'none',color:'black'}}>Register</Link></p>
 </div>
 <div className='r'>
     <p>Login to </p>
@@ -47,9 +47,7 @@ const Login = () => {
  
        }}>
           <div style={{paddingBottom:'20px'}}>
-        {/* <InputLabel htmlFor="input-with-icon-adornment">
-          With a start adornment
-        </InputLabel> */}
+     
         <Input
           id="input-with-icon-adornment"
           className='ins'

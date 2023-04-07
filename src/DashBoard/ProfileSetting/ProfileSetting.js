@@ -2,12 +2,16 @@ import React from 'react'
 import mus from '../../Images/mus.png'
 import TextField from '@mui/material/TextField';
 import './ProfileSetting.css'
+import Teachers from '../../TeachersDash/Teachers';
 const ProfileSetting = () => {
   return (
+    <>
+    <Teachers/>
+    <div style={{backgroundColor:'#F5F5F5', width: '100%',marginTop:'-700px',minHeight:'80vh', }}>
     <div className='w'>
 
 
-    <div class="flex-container">
+    <div class="flex-container" style={{marginTop:'-80px'}}>
       <div className="item-one">
       <div className='u'>
       Profile Setting
@@ -90,9 +94,10 @@ const ProfileSetting = () => {
         
         
         
-        
+        </div>
         
         </div>
+        </>
   )
 }
 

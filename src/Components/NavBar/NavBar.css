@@ -121,6 +121,18 @@ width: 150px;
     display: inline-block;
     margin-left: 50px;
     margin-top: -10px;
+    z-index: 1;
+  }
+  @media (max-width: 1460px) {
+    .dropdown{
+      margin-left: 30px;
+    }
+  }
+
+  @media (max-width: 940px) {
+    .dropdown{
+      margin-left: 10px;
+    }
   }
   .dropdow {
     position: relative;
@@ -246,6 +258,47 @@ width: 150px;
     font-size: 22px;
     
   }
+  .hom{
+    color: white;
+    margin-left: 500px;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: "54px";
+
+  }
+  .ab{
+    margin-left: 40px;
+  }
+  @media screen and (max-width: 1490px) {
+.dropdow{
+  margin-left: -200px;
+}
+
+  }
+
+
+  @media screen and (max-width: 1250px) {
+.hom{
+  margin-left: 300px;
+}
+    
+      }
+      @media screen and (max-width: 1050px) {
+      .ab{
+        margin-left: 20px;
+      }
+      .dropdo{
+        margin-left: -120px;
+      }
+          .hom{
+            margin-left: 250px;
+          } 
+          .dropdow{
+            margin-left: -210px;
+          } 
+              }
+        
+
   @media screen and (max-width: 800px) {
     .dropdown{
 margin-left: 30px;

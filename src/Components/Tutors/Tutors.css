@@ -124,13 +124,20 @@ font-size: 14px;
     }
    
   }
-  @media (max-width: 800px) {
+ 
+  @media (max-width: 900px) {
     .cardds {
       grid-template-columns: repeat(2, 1fr);
-      padding-left: 70px;
     }
    
   }
+  @media (max-width: 750px) {
+    .cardds {
+   padding-left: 80px;
+    }
+   
+  }
+ 
   @media (max-width: 500px) {
     .cardds {
       grid-template-columns: repeat(1,1fr);
@@ -154,5 +161,5 @@ font-size: 14px;
           @media (max-width: 325px) {
             .cardds {
               grid-template-columns: repeat(1,1fr);
-           margin-left: 40px;
+           margin-left: 20px;
             }}

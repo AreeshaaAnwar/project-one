@@ -69,6 +69,239 @@ font-family: Montserrat;
    margin-left: 40px;
   padding-bottom: 6px;
 }
+
+
+@media screen and (max-width: 1920px) {
+ .search{
+margin-left: 1100px;
+ }
+}
+@media screen and (max-width: 1750px) {
+   .search{
+    margin-left: 1000px;
+     }
+  }
+
+  @media screen and (max-width: 1620px) {
+    .search{
+     margin-left: 900px;
+      }
+   }
+   @media screen and (max-width: 1510px) {
+    .search{
+        margin-left: 850px;
+         }
+   }
+
+
+   @media screen and (max-width: 1445px) {
+    .search{
+        margin-left: 830px;
+         }
+         .mess{
+            margin-left: 700px;
+         }
+         .messs{
+            margin-left: 700px; 
+         }
+         
+   }
+   .te{
+    margin-left: 50px;
+    width: 70%;
+    /* height: 20px; */
+    padding-top: 20px;
+    border-radius: 15px;
+    background-color: white;
+    border: white;
+}
+.Type{
+    font-size: 15px;
+    margin-left: 300px;
+    margin-top: -30px;
+    color: #00000099;
+}
+   @media screen and (max-width: 1272px) {
+    input.te {
+    padding-left: 0px;
+    width: 50%;
+    
+    }
+   }
+
+   @media screen and (max-width: 1335px) {
+    .search{
+        margin-left: 750px;
+         }
+         .mess{
+            margin-left: 650px;
+         }
+         .messs{
+            margin-left: 650px; 
+         }
+         
+   }
+   @media screen and (max-width: 1220px) {
+    .search{
+        margin-left: 680px;
+         }
+         .mess{
+            margin-left: 620px;
+         }
+         .messs{
+            margin-left: 620px; 
+            padding-left: 5px;
+            padding-right: 5px;
+         }
+         .mess-two{
+            padding-left: 5px;
+            padding-right: 5px; 
+         }
+   }
+
+
+   @media screen and (max-width: 1240px) {
+    .search{
+        margin-left: 640px;
+         }
+         .mess{
+            margin-left: 580px;
+         }
+         .messs{
+            margin-left: 530px; 
+            padding-left: 5px;
+            padding-right: 5px;
+            width: 200px;
+         }
+         .mess-two{
+            padding-left: 5px;
+            padding-right: 5px; 
+            width: 200px;
+         }
+   }
+   @media screen and (max-width: 1070px) {
+    .search{
+        margin-left: 580px;
+         }
+         .mess{
+            margin-left: 540px;
+         }
+         .messs{
+            margin-left: 480px; 
+            padding-left: 5px;
+            padding-right: 5px;
+            width: 200px;
+         }
+         .mess-two{
+            padding-left: 5px;
+            padding-right: 5px; 
+            width: 200px;
+         }
+   }
+
+   @media screen and (max-width: 1000px) {
+    .search{
+        margin-left: 540px;
+         }
+         .mess{
+            margin-left: 500px;
+         }
+         .messs{
+            margin-left: 440px; 
+            padding-left: 5px;
+            padding-right: 5px;
+            width: 200px;
+         }
+         .mess-two{
+            padding-left: 5px;
+            padding-right: 5px; 
+            width: 200px;
+         }
+   }
+
+   @media screen and (max-width: 951px) {
+    .search{
+        margin-left: 520px;
+         }
+         .mess{
+            margin-left: 450px;
+         }
+         .messs{
+            margin-left: 400px; 
+            padding-left: 5px;
+            padding-right: 5px;
+            width: 200px;
+         }
+         .mess-two{
+            padding-left: 5px;
+            padding-right: 5px; 
+            width: 200px;
+         }
+   }
+
+   @media screen and (max-width: 900px) {
+    .search{
+        margin-left: 480px;
+         }
+         .mess{
+            margin-left: 420px;
+         }
+         .messs{
+            margin-left: 380px; 
+            padding-left: 5px;
+            padding-right: 5px;
+            width: 200px;
+         }
+         .mess-two{
+            padding-left: 5px;
+            padding-right: 5px; 
+            width: 200px;
+         }
+
+
+
+   }
+
+   @media screen and (max-width: 861px) {
+    .search{
+        margin-left: 450px;
+         }
+         .mess{
+            margin-left: 390px;
+         }
+         .messs{
+            margin-left: 350px; 
+            padding-left: 5px;
+            padding-right: 5px;
+            width: 200px;
+         }
+         .mess-two{
+            padding-left: 5px;
+            padding-right: 5px; 
+            width: 200px;
+         }
+   }
+   @media screen and (max-width: 810px) {
+    .search{
+        margin-left: 420px;
+         }
+         .mess{
+            margin-left: 350px;
+         }
+         .messs{
+            margin-left: 300px; 
+            padding-left: 5px;
+            padding-right: 5px;
+            width: 200px;
+         }
+         .mess-two{
+            padding-left: 5px;
+            padding-right: 5px; 
+            width: 200px;
+         }
+   }
+
+
 @media screen and (max-width: 740px) {
     .bar{
         margin-left: 20px;
@@ -109,21 +342,7 @@ padding: 20px;
 margin-left: 30px;
 
 }
-.te{
-    margin-left: 50px;
-    width: 70%;
-    /* height: 20px; */
-    padding-top: 20px;
-    border-radius: 15px;
-    background-color: white;
-    border: white;
-}
-.Type{
-    font-size: 15px;
-    margin-left: 300px;
-    margin-top: -30px;
-    color: #00000099;
-}
+
 
 @media screen and (max-width: 800px) {
  .search{

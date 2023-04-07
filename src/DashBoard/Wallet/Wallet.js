@@ -5,7 +5,7 @@ const Wallet = () => {
   return (
     <div>
 <StudentDash/>
-       <div style={{backgroundColor:'#F5F5F5',minHeight:'90vh', width: '100%' }}>
+       <div style={{backgroundColor:'#F5F5F5',marginTop:'-590px',minHeight:'80vh', width: '100%' }}>
 
 <div className='Available'>
   <div className="Available-left">

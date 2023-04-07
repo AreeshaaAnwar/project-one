@@ -20,7 +20,14 @@ import RequestLesson from './DashBoard/RequestLesson/RequestLesson';
 import Proposal from './DashBoard/Proposal/Proposal';
 import CurrentSession from './DashBoard/CurrentSession/CurrentSession';
 import Wallet from './DashBoard/Wallet/Wallet';
-import Ta from './DashBoard/Tabs/Tabs'
+import Ta from './DashBoard/Tabs/Tabs';
+import DashNav from './DashBoard/DashNav/DashNav';
+import Teachers from './TeachersDash/Teachers';
+import Available from './DashBoard/Available';
+import TeacherProposal from './TeachersDash/TeacherProposal/TeacherProposal';
+import Earning from './DashBoard/Earning/Earning';
+
+
 
 
 function App() {
@@ -31,6 +38,11 @@ function App() {
     <BrowserRouter>
    
       <Routes>
+      <Route path='/Earning' element={<Earning/>}></Route>
+      <Route path='/TeacherProposa' element={<TeacherProposal/>}></Route>
+      <Route path='/Available' element={<Available/>}></Route>
+      <Route path='/DashNav' element={<DashNav/>}></Route>
+      <Route path='/Teachers' element={<Teachers/>}></Route>
       <Route path="/" element={<Home/>} />
 <Route path='/About' element={<About/>}></Route>
 <Route path='/Contact' element={<Contact/>}></Route>
@@ -53,7 +65,8 @@ function App() {
 <Route path='/CurrentSession' element={<CurrentSession/>}></Route>
 <Route path='/Wallet' element={<Wallet/>}></Route>    
         
-          <Route path='/RequestLesson' element={<RequestLesson/>}></Route>   
+          <Route path='/RequestLesson' element={<RequestLesson/>}></Route> 
+
 
       </Routes>
     </BrowserRouter>

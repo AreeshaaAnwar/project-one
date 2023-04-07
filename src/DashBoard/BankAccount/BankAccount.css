@@ -37,9 +37,10 @@ font-family: Montserrat;
    font-size: 20px;
 }
 .sa{
-    margin-left: 70px;
+    margin-left: 50px;
     
 }
+
 .sas{
     margin-left: 80px;  
 }
@@ -58,7 +59,68 @@ font-family: Montserrat;
 .bphone{
     margin-left: 100px;
 }
-@media (max-width: 800px) {
+
+
+@media (max-width: 1330px) {
+    .sa{
+        margin-left: 30px;
+        
+    }
+    .sas{
+        margin-left: 70px;  
+    }
+    .saa{
+        margin-left: 80px;
+    }
+    .num{
+        margin-left: 100px;
+    }
+    .curr{
+        margin-left: 100px;
+    }
+    .nam{
+        margin-left: 100px;
+    }
+    .bphone{
+        margin-left: 100px;
+    }
+
+}
+
+@media (max-width: 1216px) {
+    .sa{
+        margin-left: 30px;
+        font-size: 15px;
+        
+    }
+    .sas{
+        margin-left: 70px;  
+        font-size: 15px;
+    }
+    .saa{
+        margin-left: 80px;
+        font-size: 15px;
+    }
+    .num{
+        margin-left: 80px;
+        font-size: 15px;
+    }
+    .curr{
+        margin-left: 80px;
+        font-size: 15px;
+    }
+    .nam{
+        margin-left: 80px;
+        font-size: 15px;
+    }
+    .bphone{
+        margin-left: 60px;
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 990px) {
     .acc{
         flex-direction: column;
     }

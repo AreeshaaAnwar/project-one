@@ -40,7 +40,7 @@ function DashNav() {
 
   return (
     <AppBar
-    position="fixed"
+  
     sx={{ background: "transparent", position: "relative" }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
@@ -99,7 +99,7 @@ function DashNav() {
             }}
           >
             <>
-              <input  type='text'  style={{height:'40px',width:'500px',marginLeft:'400px',borderRadius:'50px',backgroundColor:'#D9D9D959',border:'#D9D9D959',position:'relative',fontFamily:'Montserrat'}}/>
+              <input  type='text'  className='dashicon'/>
              <SearchIcon sx={{position:'absolute',color:'black',marginLeft:'410px',padding:'10px',color:'grey'}}/>
              <p style={{position:'absolute',color:'grey',marginLeft:'470px',marginTop:'15px',fontFamily:'Montserrat'}}>Search Here</p>
               <div className='navtext'>

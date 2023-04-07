@@ -30,6 +30,44 @@
     font-family: Montserrat;
   
   }
+  @media (max-width: 1260px) {
+    .ullses{
+      margin-left: 10px;
+    }
+    .ulses{
+      margin-left: 10px;
+    }
+  }
+
+
+  @media (max-width: 1120px) {
+    .ullses{
+      margin-left: -20px;
+    }
+    .ulses{
+      margin-left: -20px;
+    }
+  }
+
+  @media (max-width: 990px) {
+    .cSession{
+      flex-direction: column;
+      padding-bottom: 5px;
+      }
+    
+  
+      .ulses{
+          margin-left: -20px;
+      }
+      .ullses{
+          margin-left: -20px;  
+      }
+      .detailss{
+          margin-left: 20px;
+      }
+
+
+  }
   @media (max-width: 800px) {
    
     .cSession{

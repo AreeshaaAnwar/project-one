@@ -69,9 +69,6 @@ padding: 50px;
     margin-left: 900px; 
     font-family: Montserrat;
 }
-
-
-
 .Newsletter{
     display: flex;
     justify-content: center;
@@ -79,6 +76,107 @@ padding: 50px;
     flex-direction: column;
     margin-left: 1200px; 
     font-family: Montserrat;
+}
+
+@media screen and (max-width: 1920px) {
+    .footcards{
+        max-width: 100px;
+        margin: 0 auto;
+        gap: 1rem;
+        display: flex;
+        justify-content: center;
+        margin-top: -600px;
+        flex-direction: column;
+        font-family: Montserrat;
+      
+        
+       
+    }
+    .footcardds{
+        display: flex;
+        justify-content: center;
+        margin-top: -200px;
+        flex-direction: column;
+        margin-left: 800px; 
+        font-family: Montserrat;
+    }
+    .Newsletter{
+        display: flex;
+        justify-content: center;
+        margin-top: -200px;
+        flex-direction: column;
+        margin-left: 1100px; 
+        font-family: Montserrat;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .Newsletter{
+        display: flex;
+        justify-content: center;
+        margin-top: -200px;
+        flex-direction: column;
+        margin-left: 900px; 
+        font-family: Montserrat;
+    }
+}
+@media screen and (max-width: 1150px) {
+  
+    .footcardds{
+        display: flex;
+        justify-content: center;
+        margin-top: -200px;
+        flex-direction: column;
+        margin-left: 650px; 
+        font-family: Montserrat;
+    }
+    .Newsletter{
+        display: flex;
+        justify-content: center;
+        margin-top: -200px;
+        flex-direction: column;
+        margin-left: 750px; 
+        font-family: Montserrat;
+    }
+}
+@media screen and (max-width: 990px) {
+  
+    .footcardds{
+        display: flex;
+        justify-content: center;
+        margin-top: -200px;
+        flex-direction: column;
+        margin-left: 550px; 
+        font-family: Montserrat;
+    }
+    .Newsletter{
+        display: flex;
+        justify-content: center;
+        margin-top: -200px;
+        flex-direction: column;
+        margin-left: 650px; 
+        font-family: Montserrat;
+    }
+}
+@media screen and (max-width: 880px) {
+    .footcardds{
+        display: flex;
+        justify-content: center;
+        margin-top: -200px;
+        flex-direction: column;
+        margin-left: 500px; 
+        font-family: Montserrat;
+    }
+    .Newsletter{
+        display: flex;
+        justify-content: center;
+        margin-top: -200px;
+        flex-direction: column;
+        margin-left: 600px; 
+        font-family: Montserrat;
+    }
+    .Newsletter p{
+        font-size: 12px;
+    }
 }
 .input{
 height: 30px;

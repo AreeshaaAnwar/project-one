@@ -6,11 +6,6 @@
 }
 
 
-.le{
-  padding-top:194px;
-  margin-left:1px
-}
-
 .register .reg-flex{
     display: flex;
     flex-direction: row;
@@ -28,7 +23,7 @@
   .reg-left .leaf{
     width:250px;
     margin-left:140px ;
-margin-top:216px
+margin-top:200px
   }
  .reg-left .reg-head{
    text-align: center;
@@ -41,6 +36,14 @@ margin-top:216px
     flex: 55%;
    background-color: #F5F5F5;;
     min-height: 50vh;
+  }
+  @media (max-width:1331px) {
+    .reg-left .penn{
+    padding-left: 500px;
+   margin-top: -300px;
+  
+    }   
+  
   }
  .reg-right .r{
     margin-top: 50px;
@@ -58,7 +61,44 @@ font-family: Montserrat;
 line-height: 50px;
 font-family: Montserrat;
 }
-  @media (max-width: 800px) {
+@media (max-width: 1205px) {
+  .es{
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 1196px) {
+  .in{
+    margin-left: 10px;
+  }
+}
+@media (max-width: 1178px) {
+  .es{
+    margin-left: 10px;
+  }
+}
+@media (max-width: 1158px) {
+  .es{
+    margin-left: 10px;
+  }
+  .in{
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 945px) {
+  .es{
+  width: 200px;
+  }
+  .in{
+    width: 200px;
+  }
+}
+
+
+
+
+  @media (max-width: 990px) {
    .register .reg-flex {
     flex-direction: column;
     }
@@ -78,8 +118,9 @@ font-family: Montserrat;
       
   
         
-
-        margin-left: -250px;
+padding-left: 50px;
+        /* margin-left: -250px; */
+        margin-top: -400px;
     
     
        
@@ -142,7 +183,7 @@ font-family: Montserrat;
   }
   @media (max-width:741px) {
 .reg-left .penn{
-padding-left: 650px;
+padding-left: 660px;
  margin-top: -290px;
 }
 .le{
@@ -152,6 +193,21 @@ padding-left: 650px;
   margin-bottom: -20px;
  }
   }
+
+  @media (max-width:790px) {
+    .reg-left .penn{
+    padding-left: 600px;
+     margin-top: -290px;
+    }
+    .le{
+      margin-bottom: -20px;
+     }
+     .reg-left .leaf{
+      margin-bottom: -20px;
+     }
+      }
+
+
   @media (max-width:656px) {
     .es{
 margin-left: 10px;

@@ -77,11 +77,68 @@
     border-radius: 5px;
     font-family: Montserrat ;
   }
-  /* .ignore{
+  @media (max-width: 1280px) {
+.ull{
+  margin-left: 100px;
+}
+  }
 
-  } */
-  /* Responsive layout - makes a one column-layout instead of two-column layout */
-  @media (max-width: 800px) {
+  @media (max-width: 1170px) {
+    .ull{
+      margin-left: 60px;
+    }
+      }
+      @media (max-width: 1140px) {
+        .ull{
+          margin-left: 30px;
+        }
+          }
+
+
+          @media (max-width: 1090px) {
+            .ull{
+              margin-left: 10px;
+            }
+              }
+              @media (max-width: 1050px) {
+                .ull{
+                  margin-left: -5px;
+                }
+                .ul{
+                  margin-left: -20px;
+                }
+                  }
+
+
+                  @media (max-width: 990px) {
+                    .Available {
+                      flex-direction: column;
+                    }
+                    .Sessions{
+                    flex-direction: column;
+                    padding-bottom: 5px;
+                    }
+                    .Session{
+                        flex-direction: column;
+                        padding-bottom: 5px;
+                        margin-left: 20px;
+                    }
+                
+                    .ul{
+                        margin-left: -20px;
+                    }
+                    .ull{
+                        margin-left: -20px;  
+                    }
+                    .details{
+                        margin-left: 20px;
+                    }
+                    .ll{
+                      margin-left: 1px;
+                    }
+                  }
+
+  @media (max-width: 900px) {
     .Available {
       flex-direction: column;
     }

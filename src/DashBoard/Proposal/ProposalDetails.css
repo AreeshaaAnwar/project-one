@@ -91,7 +91,7 @@ position: absolute;
 
   }
   /* Responsive layout - makes a one column-layout instead of two-column layout */
-  @media (max-width: 800px) {
+  @media (max-width: 1170px) {
     .flex-container {
       flex-direction: column;
       flex-direction: column-reverse;
@@ -114,6 +114,18 @@ margin-top: -100px;
     }
     
   }
+  @media (max-width: 795px) {
+    .item-two{
+      margin-top: 130px;
+    }
+  }
+
+
+  @media (max-width: 520px) {
+    .item-two{
+      margin-top: 150px;
+    }
+  }
   @media (max-width: 500px) {
    
     .item-one{
@@ -123,10 +135,10 @@ margin-top: -100px;
        
        
         }
-        .item-two{
+        /* .item-two{
             
         margin-top: 50px;
-        }
+        } */
        
   }
   @media (max-width: 600px) {

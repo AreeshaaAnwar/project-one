@@ -27,35 +27,91 @@
     /* background-position: center; */
    }
 
-.one{
+/* .one{
     padding-top: 150px;
     width: 250px;
-}
-.three{
+} */
+/* .three{
     margin-left: 20px;
     padding-top: 100px;
     width: 200px;
-}
-.fo{
+} */
+/* .fo{
     margin-right: 100px;
     height: 300px;
     width: 200px;
    
-}
+} */
 
 /* .fo{
     margin-right: 400px;
     height: 250px;
     margin-top: 10px;
 } */
-.two{
+/* .two{
   margin-left: -80px;
     width: 250px;
     margin-top: -300px;
     padding-bottom: 0px;
     height: 300px;
 
+} */
+
+
+@media screen and (max-width: 1920px) {
+
+.one{
+    padding-top: 150px;
+    width: 300px;
 }
+.three{
+    margin-left: 20px;
+    padding-top: 100px;
+    width: 250px;
+    padding-right: 10px;
+
+}
+.two{
+  width: 360px;
+  margin-left: 200px;
+margin-top: -300px;
+margin-bottom: 30px;
+}
+.fo{
+    margin-right: 400px;
+    height: 270px;
+    margin-top: 10px;
+}
+
+
+        }
+        @media screen and (max-width: 1201px) {
+
+          .one{
+            padding-top: 150px;
+            width: 250px;
+        }
+        .three{
+          margin-left: 20px;
+          padding-top: 100px;
+          width: 200px;
+          padding-right: 10px;
+      
+      }
+      .two{
+        width: 300px;
+        margin-left: 180px;
+      margin-top: -300px;
+      margin-bottom: 40px;
+      height: 250px;
+      }
+      .fo{
+          margin-right: 400px;
+          height: 250px;
+          margin-top: 10px;
+      }
+        }
+  
 .learn{
     position: relative;
     width: 180px;
@@ -167,8 +223,8 @@
       width: 200px;
    /* padding-top: 100px; */
       margin-left: 170px;
-      margin-top: -308px;
-      height: 300px;
+      margin-top: -260px;
+      height: 250px;
       padding-bottom: 80px
   }
  
@@ -217,9 +273,9 @@
       margin-left: 140px;
       width: 170px;
       margin-top: -160px;
-     height: 290px;
+     height: 250px;
  margin-top: -300px;
-     padding-bottom: 40px;
+     padding-bottom: 0px;
   }
   .item-right{
     padding-left: 30px;
@@ -254,9 +310,9 @@
         margin-left: 120px;
         width: 170px;
         margin-top: -160px;
-       height: 290px;
+       height: 250px;
    margin-top: -300px;
-       padding-bottom: 40px;
+       padding-bottom: 0px;
     }
    
   }
@@ -275,9 +331,9 @@
         margin-left: 110px;
         width: 170px;
         margin-top: -160px;
-       height: 290px;
+       height: 250px;
    margin-top: -300px;
-       padding-bottom: 40px;
+       padding-bottom: 0px;
     }
     .abo{
       font-size: 9px;

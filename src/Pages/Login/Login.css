@@ -6,10 +6,37 @@ line-height: 50px;
 position: relative;
 margin-right: 50px;
 }
-
+/* .lo{
+  margin-left: 10px;
+} */
 .spans{
     margin-left: 150px;
 }
+@media (max-width:1053px) {
+ .spans{
+  margin-top: 10px;
+  margin-left: 10px;
+ }
+}
+
+@media (max-width:960px) {
+.ins{
+width: 300px;
+}
+}
+@media (max-width:832px) {
+  .spans{
+  font-size: 15px;
+  }
+}
+@media (max-width:860px) {
+  .ins{
+  width: 280px;
+  }
+  .ins{
+    width: 250px;
+    }
+  }
 
   @media (max-width: 588px) {
   .spans{

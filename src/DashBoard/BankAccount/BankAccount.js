@@ -1,10 +1,14 @@
 import React from 'react'
 import upcomming from '../../Images/upcomming.png'
 import './BankAccount.css'
+import Teachers from '../../TeachersDash/Teachers'
 const BankAccount = () => {
   return (
+  <div>
+    <Teachers/>
+    <div style={{backgroundColor:'#F5F5F5',marginTop:'-590px',minHeight:'85vh', width: '100%' }}>
   
-     <div className='bank'>
+     {/* <div className='bank'> */}
  <div className='Available'>
   <div className="Available-left">
     <div className='up'>
@@ -39,13 +43,13 @@ const BankAccount = () => {
     </div>
   </div>
 </div>
-
+</div>
 
 
 
     </div>
     
-    
+    // </div>
 
   )
 }

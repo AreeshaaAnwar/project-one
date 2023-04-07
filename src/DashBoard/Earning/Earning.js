@@ -1,9 +1,12 @@
 import React from 'react'
 import './Earning.css'
 import upcomming from '../../Images/upcomming.png'
+import Teachers from '../../TeachersDash/Teachers'
 const Earning = () => {
   return (
     <div>
+      <Teachers/>
+       <div style={{backgroundColor:'#F5F5F5',marginTop:'-590px',minHeight:'85vh', width: '100%' }}>
  <div className='Available'>
   <div className="Available-left">
     <div className='up'>
@@ -39,6 +42,7 @@ const Earning = () => {
         <div className='detailss'>  <button className='det' >CASHOUT</button></div>
       
     </div>
+  </div>
   </div>
 </div>
 

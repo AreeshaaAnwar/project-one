@@ -128,8 +128,423 @@ margin-top: 5px;
     }
     
       }
+      @media screen and (max-width: 1920px) {
+        p.Lorem{
+          display: flex;
+          justify-content: center;
+    margin-top: 30px;
+          color: #00000080;
+        margin-left: 10px  !important;
+        font-size: 12px; 
+        }
+        .status{
+          margin-left: 100px;
+        }
       
-  @media screen and (max-width: 750px) {
+      }
+
+      @media screen and (max-width: 1750px) {
+        .status{
+          margin-left: 60px;
+        }
+      }
+
+
+      @media screen and (max-width: 1620px) {
+        .status{
+          margin-left: 30px;
+        }
+       }
+
+       @media screen and (max-width: 1510px) {
+        .status{
+          margin-left: 1px;
+        }
+       }
+       @media screen and (max-width: 1445px) {
+        .Gets{
+          font-size: 17px;
+        display: flex;
+       justify-content: center;
+       margin: -13%;
+    padding-left: 10px;
+       font-weight: 500;
+       margin-top: -50px;
+       margin-left: -180px;
+        }
+        p.Lorem{
+       
+       padding-left: 60px;
+         margin-top: 20px;
+        }
+        .status{
+          margin-left: -20px;
+        }
+       }
+
+
+
+       @media screen and (max-width: 1335px) {
+      .status{
+        margin-left: -50px;
+      }
+      .Get{
+        font-size: 15px;
+    
+      margin-left: 30px;
+      }
+      .sear{
+        padding-left: 40px;
+      }
+
+      .Gets{
+        font-size: 17px;
+      display: flex;
+     justify-content: center;
+     margin: -13%;
+  padding-left: 10px;
+     font-weight: 500;
+     margin-top: -50px;
+     margin-left: -150px;
+      }
+      p.Lorem{
+     
+     padding-left: 85px;
+       margin-top: 10px;
+      }
+
+             
+       }
+
+       @media screen and (max-width: 1272px) {
+        .Gets{
+          font-size: 17px;
+        display: flex;
+       justify-content: center;
+       margin: -13%;
+    padding-left: 10px;
+       font-weight: 500;
+       margin-top: -50px;
+       margin-left: -120px;
+        }
+       }
+       @media screen and (max-width: 1250px) {
+        .status{
+          margin-left: -90px;
+          margin-top: -10px;
+        }
+        .Get{
+          font-size: 15px;
+      
+        margin-left: 30px;
+        }
+        .sear{
+          padding-left: 40px;
+        }
+  
+        .Gets{
+          font-size: 17px;
+        display: flex;
+       justify-content: center;
+       margin: -13%;
+    padding-left: 10px;
+       font-weight: 500;
+       margin-top: -70px;
+       margin-left: -120px;
+        }
+        p.Lorem{
+       
+       padding-left: 85px;
+         margin-top: -10px;
+        }
+  
+               
+         }
+         @media screen and (max-width: 1220px) {
+          /* .status{
+            margin-left: 80px;
+          } */
+        
+          .sear{
+            padding-left: 60px;
+          }
+    
+          .Gets{
+          margin-left: -110px;
+          }
+        
+          }
+          
+           
+
+           @media screen and (max-width: 1240px) {
+            .status{
+              margin-left: -70px;
+            }
+          
+            .sear{
+              padding-left: 80px;
+            }
+      
+      
+                   
+             }
+             @media screen and (max-width: 1167px) {
+              .status{
+                margin-left: -80px;
+                margin-top: -10px;
+              }
+              .girl{
+                width: 60px;
+                height: 60px;
+                margin-left: 10px;
+                margin-top: -8px;
+               }
+               .Gets{
+                margin-left: -90px;
+                margin-top: -60px;
+                }
+            }
+            @media screen and (max-width: 1132px) {
+              .status{
+                margin-left: -100px;
+                margin-top: -10px;
+              }
+              .Gets{
+                margin-left: -60px;
+                margin-top: -60px;
+                }
+                p.Lorem{
+       
+                  padding-left: 95px;
+                    margin-top: -20px;
+                    font-size: 10px;
+                   }
+                   .Get{
+                    margin-top: -35px;
+                   }
+             
+           
+            }
+                 
+                 
+
+             @media screen and (max-width: 1070px) {
+              .status{
+                margin-left: -130px;
+              }
+            
+              .sear{
+                padding-left: 120px;
+              }
+        
+              .Gets{
+                font-size: 17px;
+              display: flex;
+             justify-content: center;
+             margin: -13%;
+          padding-left: 10px;
+             font-weight: 500;
+             margin-top: -60px;
+             margin-left: -60px;
+              }
+              p.Lorem{
+             
+             padding-left: 85px;
+               margin-top: -15px;
+              }
+              .Get{
+                font-size: 15px;
+            
+              margin-left: 60px;
+              margin-top: -30px;
+              }
+                     
+               }
+
+               @media screen and (max-width: 1010px) {
+                .status{
+                  margin-left: -150px;
+                }
+              
+                .sear{
+                  padding-left: 120px;
+                }
+          
+                .Gets{
+                  font-size: 17px;
+                display: flex;
+               justify-content: center;
+               margin: -13%;
+            padding-left: 10px;
+               font-weight: 500;
+               margin-top: -65px;
+               margin-left: -30px;
+                }
+                p.Lorem{
+               
+               padding-left: 85px;
+                 margin-top: -35px;
+                }
+                .Get{
+                  font-size: 13px;
+              
+                margin-left: 60px;
+                margin-top: -30px;
+                }
+               }
+
+               @media screen and (max-width: 951px) {
+                .status{
+                  margin-left: -150px;
+                }
+              
+                .sear{
+                  padding-left: 140px;
+                }
+          
+                .Gets{
+                  font-size: 17px;
+                display: flex;
+               justify-content: center;
+               margin: -13%;
+            padding-left: 10px;
+               font-weight: 500;
+               margin-top: -60px;
+               margin-left: -20px;
+                }
+                p.Lorem{
+               
+               padding-left: 85px;
+              
+                 font-size: 11px;
+                 margin-top: -45px;
+                }
+                .Get{
+                  font-size: 12px;
+              
+                margin-left: 60px;
+                margin-top: -30px;
+                }
+                p.pos{
+                  font-size: 15px;
+                }
+               }
+
+
+
+
+               @media screen and (max-width: 900px) {
+               .status .vectorIcon{
+                  margin-left: 30px;
+                }
+                .status .icons{
+                  margin-left: 10px;
+                }
+                .Gets{
+                  font-size: 17px;
+                display: flex;
+               justify-content: center;
+               margin: -13%;
+            padding-left: 10px;
+               font-weight: 500;
+               margin-top: -60px;
+               margin-left: -10px;
+                }
+                p.Lorem{
+               
+               padding-left: 85px;
+              
+                 font-size: 10px;
+                 margin-top: -45px;
+                }
+                .Get{
+                  font-size: 10px;
+              
+                margin-left: 60px;
+                margin-top: -30px;
+                }
+               }
+
+
+               @media screen and (max-width: 861px) {
+               
+                 .Gets{
+                   font-size: 17px;
+                 display: flex;
+                justify-content: center;
+                margin: -13%;
+             padding-left: 10px;
+                font-weight: 500;
+                margin-top: -60px;
+                margin-left: -10px;
+                 }
+                 p.Lorem{
+                
+                padding-left: 75px;
+               
+                  font-size: 10px;
+                  margin-top: -45px;
+                 }
+                 .Get{
+                   font-size: 10px;
+               
+                 margin-left: 60px;
+                 margin-top: -30px;
+                 }
+                 .sear{
+                 padding-left: 170px;
+                 }
+                 p.pos{
+                  font-size: 12px !important;
+                  margin-top: 10px;
+                 }
+                }
+                @media screen and (max-width: 810px) {
+                  .Gets{
+                    font-size: 17px;
+                  display: flex;
+                 justify-content: center;
+                 margin: -13%;
+              padding-left: 10px;
+                 font-weight: 500;
+                 margin-top: -60px;
+                 margin-left: 10px;
+                  }
+                }
+
+                @media screen and (max-width: 800px) {
+                  .status{
+                    margin-left: 20px;
+                  }
+
+                  .Gets{
+                    font-size: 17px;
+                  display: flex;
+                 justify-content: center;
+                 margin: -13%;
+              padding-left: 10px;
+                 font-weight: 500;
+                 margin-top: -60px;
+                 margin-left: -80px;
+                  }
+                  p.Lorem{
+                 
+                 padding-left: 75px;
+                
+                   font-size: 10px;
+                   margin-top: -45px;
+                  }
+
+                }
+
+
+
+
+
+
+
+  @media screen and (max-width: 751px) {
     .Gets{
       font-size: 17px;
     display: flex;

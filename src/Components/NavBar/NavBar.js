@@ -92,23 +92,18 @@ function NavBar() {
               <Typography
                 variant="h5"
                 component="h2"
-                sx={{
-                  color: "white",
-                  marginLeft: "500px",
-                  marginTop: "20px",
-                  fontSize: "20px",
-                  lineHeight: "54px",
-              fontFamily:'Montserrat'
-                }}
+            sx={{marginTop:'30px',
+            fontFamily:'Montserrat'
+            }}
               >
-              <Link to='/'  className="li">Home</Link> 
+              <Link to='/'  className="li hom">Home</Link> 
               </Typography>
               <Typography
                 variant="h5"
                 component="h2"
                 sx={{
                   color: "white",
-                  marginLeft: "40px",
+                  // marginLeft: "40px",
                   marginTop: "20px",
                   fontSize: "20px",
                   lineHeight: "54px",
@@ -117,21 +112,21 @@ function NavBar() {
              
               >
               
-              <Link to="/About" className="li">About</Link>
+              <Link to="/About" className="li ab">About</Link>
               </Typography>
               <Typography
                 variant="h5"
                 component="h2"
                 sx={{
                   color: "white",
-                  marginLeft: "40px",
+                  // marginLeft: "40px",
                   marginTop: "20px",
                   fontSize: "20px",
                   lineHeight: "54px",
                   fontFamily:'Montserrat'
                 }}
               >
-                University
+        <div className="ab">  University</div>      
               </Typography>
               <Typography
                 variant="h5"
@@ -139,14 +134,14 @@ function NavBar() {
                 sx={{
                   color: "white",
                   marginRight: "300px",
-                  marginLeft: "40px",
+                  // marginLeft: "40px",
                   marginTop: "20px",
                   fontSize: "20px",
                   lineHeight: "54px",
                   fontFamily:'Montserrat'
                 }}
               >
-               <Link to="/Contact" className="li">Contact</Link>
+               <Link to="/Contact" className="li ab">Contact</Link>
               </Typography>
               <div class="dropdow">
   <Button class="dropbt">  <img src={login} alt="login" style={{ height: "20px" }} className='i'></img>

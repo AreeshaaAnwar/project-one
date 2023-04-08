@@ -36,7 +36,7 @@ useEffect(() => {
    
     <Box sx={{ width: '100%' ,minHeight:'10vh',zIndex:'1'}}>
       <AppBar  color="transparent" style={{ backgroundColor: '#074276',position:'relative',zIndex:'1'}}>
-      <h4 style={{marginLeft:'10px',marginTop:'30px',color: ' white' ,fontFamily:'Montserrat' }}>TUTORS COMMUNITY</h4>
+      <h4 style={{marginLeft:'10px',marginTop:'25px',color: ' white' ,fontFamily:'Montserrat' }}>TUTORS COMMUNITY</h4>
        <Tabs
      variant="scrollable"
         value={value}
@@ -51,9 +51,9 @@ useEffect(() => {
        <Tab label={<span style={{ color: ' white' ,fontFamily:'Montserrat' }}><FontAwesomeIcon icon={faPens}  style={{marginRight:'10px',marginTop:'-150px',fontSize:'30px',marginBottom:'-10px'}}/>Request Lesson</span>}  sx={{paddingTop:'1px',marginRight:'50px'}} component={Link} to={"/RequestLesson"} style={{marginTop:'10px'}} value='/RequestLesson' />
         <Tab label={<span style={{ color: ' white',fontFamily:'Montserrat'  }}><GradingIcon sx={{marginRight:'10px',marginTop:'-150px',fontSize:'30px',marginBottom:'-10px'}}/>Proposals</span>}  sx={{paddingTop:'15px',marginRight:'50px'}}  component={Link} to={"/Proposal"} value='/Proposal'/>
         <Tab label={<span style={{ color: ' white',fontFamily:'Montserrat'  }}><GradingIcon sx={{marginRight:'10px',marginTop:'-150px',fontSize:'30px',marginBottom:'-10px'}}/>Current Session</span>}  sx={{paddingTop:'15px',marginRight:'50px'}}   component={Link} to={"/CurrentSession"} value='/CurrentSession'/>
-        <Tab label={<span style={{ color: ' white',fontFamily:'Montserrat'  }}><FontAwesomeIcon icon={faWallets}  style={{marginRight:'10px',marginTop:'-150px',fontSize:'30px',marginBottom:'-10px'}}/>Wallet</span>}  sx={{paddingTop:'15px',marginRight:'50px'}}  index={3} component={Link} to={"/Wallet"} value='/Wallet'/>
-        <Tab label={<span style={{ color: ' white',fontFamily:'Montserrat'  }}><MessageIcon sx={{marginRight:'10px',marginTop:'5px',fontSize:'30px',marginBottom:'-10px'}}/>Message</span>}  sx={{paddingTop:'15px',marginRight:'50px'}}  component={Link} to={"/messages"} value='/messages'/> 
-        <Tab label={<span style={{ color: ' white',fontFamily:'Montserrat'  }}><LogoutIcon sx={{marginRight:'10px',marginTop:'-150px',fontSize:'30px',marginBottom:'-10px'}}/>LogOut</span>}  sx={{paddingTop:'15px',marginRight:'50px'}}  component={Link} to={"/"} />
+        <Tab label={<span style={{ color: ' white',fontFamily:'Montserrat'  }}><FontAwesomeIcon icon={faWallets}  style={{marginRight:'10px',marginTop:'-150px',fontSize:'30px',marginBottom:'-5px'}}/>Wallet</span>}  sx={{paddingTop:'15px',marginRight:'50px'}}  index={3} component={Link} to={"/Wallet"} value='/Wallet'/>
+        <Tab label={<span style={{ color: ' white',fontFamily:'Montserrat'  }}><MessageIcon sx={{marginRight:'10px',marginTop:'-150px',fontSize:'30px',marginBottom:'-10px'}}/>Message</span>}  sx={{paddingTop:'15px',marginRight:'50px'}}  component={Link} to={"/messages"} value='/messages'/> 
+        <Tab label={<span style={{ color: ' white',fontFamily:'Montserrat'  }}><LogoutIcon sx={{marginRight:'10px',marginTop:'-150px',fontSize:'30px',marginBottom:'-8px'}}/>LogOut</span>}  sx={{paddingTop:'15px',marginRight:'50px'}}  component={Link} to={"/"} />
       </Tabs>
     </AppBar>
 </Box> 

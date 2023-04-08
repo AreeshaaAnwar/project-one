@@ -4,8 +4,12 @@ import MenuBookIcon from '@mui/icons-material/MenuBook';
 import fotor from '../../Images/fotor.png'
 import purse from '../../Images/purse.png'
 import './CheckOut.css'
+import Teachers from '../../TeachersDash/Teachers';
 const CheckOut = () => {
   return (
+    <>
+     <Teachers/>
+     <div style={{backgroundColor:'#F5F5F5',marginTop:'-590px',minHeight:'85vh', width: '100%' }}>
 <div className='stu'>
    <div className='StuAvailables'>
    <div className='StuAvailable-lefts '>
@@ -84,9 +88,11 @@ const CheckOut = () => {
    </div>
 
    </div>
-
-   </div>
+ </div>
+ </div>
+ </>
   )
+
 }
 
 export default CheckOut

@@ -39,7 +39,7 @@ useEffect(() => {
   
     <Box sx={{ width: '100%' ,minHeight:'10vh'}}>
       <AppBar  color="transparent" style={{ backgroundColor: '#074276',position:'relative',zIndex:'1'}}>
-      <h4 style={{marginLeft:'10px',marginTop:'30px',color: ' white' ,fontFamily:'Montserrat' }}>TUTORS COMMUNITY</h4>
+      <h4 style={{marginLeft:'10px',marginTop:'25px',color: ' white' ,fontFamily:'Montserrat' }}>TUTORS COMMUNITY</h4>
        <Tabs
      variant="scrollable"
         value={value}
@@ -52,12 +52,12 @@ useEffect(() => {
         TabIndicatorProps={{sx:{backgroundColor:'white'}}}
       >
        <Tab label={<span style={{ color: ' white' ,fontFamily:'Montserrat' }}><AccountCircleIcon style={{marginRight:'10px',marginTop:'-150px',fontSize:'30px',marginBottom:'-10px'}}/>Available Tutoring</span>}  sx={{paddingTop:'1px',marginRight:'50px'}} component={Link} to={"/Available"} style={{marginTop:'10px'}} value='/Available' />
-        <Tab label={<span style={{ color: ' white',fontFamily:'Montserrat'  }}><GradingIcon sx={{marginRight:'10px',marginTop:'-150px',fontSize:'30px',marginBottom:'-10px'}}/>Proposals</span>}  sx={{paddingTop:'15px',marginRight:'50px'}}  component={Link} to={"/TeacherProposa"} value='/TeacherProposa'/>
-        <Tab label={<span style={{ color: ' white',fontFamily:'Montserrat'  }}><MessageIcon sx={{marginRight:'10px',marginTop:'5px',fontSize:'30px',marginBottom:'-10px'}}/>Message</span>}  sx={{paddingTop:'15px',marginRight:'50px'}}  component={Link} to={"/messages"} value='/messages'/> 
-        <Tab label={<span style={{ color: ' white',fontFamily:'Montserrat'  }}><FontAwesomeIcon icon={faCircleDollarr} sx={{marginRight:'10px',marginTop:'-150px',fontSize:'30px',marginBottom:'-10px'}}/>Earning</span>}  sx={{paddingTop:'15px',marginRight:'50px'}}   component={Link} to={"/Earning"} value='/Earning'/>
-        <Tab label={<span style={{ color: ' white',fontFamily:'Montserrat'  }}><AccountBalanceIcon icon={faWallets}  style={{marginRight:'10px',marginTop:'-150px',fontSize:'30px',marginBottom:'-10px'}}/>BankAccount</span>}  sx={{paddingTop:'15px',marginRight:'50px'}}  index={3} component={Link} to={"/BankAccount"} value='/BankAccount'/>
-        <Tab label={<span style={{ color: ' white',fontFamily:'Montserrat'  }}><AccountCircleIcon sx={{marginRight:'10px',marginTop:'5px',fontSize:'30px',marginBottom:'-10px'}}/>ProfileSetting</span>}  sx={{paddingTop:'15px',marginRight:'50px'}}  component={Link} to={"/ProfileSetting"} value='/ProfileSetting'/> 
-        <Tab label={<span style={{ color: ' white',fontFamily:'Montserrat'  }}><LogoutIcon sx={{marginRight:'10px',marginTop:'-150px',fontSize:'30px',marginBottom:'-10px'}}/>LogOut</span>}  sx={{paddingTop:'15px',marginRight:'50px'}}  component={Link} to={"/"} />
+        <Tab label={<span style={{ color: ' white',fontFamily:'Montserrat'  }}><GradingIcon sx={{marginRight:'10px',marginTop:'-150px',fontSize:'30px',marginBottom:'-10px'}}/>Proposals</span>}  sx={{paddingTop:'10px',marginRight:'50px'}}  component={Link} to={"/CheckOut"} value='/CheckOut'/>
+        <Tab label={<span style={{ color: ' white',fontFamily:'Montserrat'  }}><MessageIcon sx={{marginRight:'10px',marginTop:'-160px',fontSize:'30px',marginBottom:'-10px'}}/>Message</span>}  sx={{paddingTop:'10px',marginRight:'50px'}}  component={Link} to={"/messages"} value='/messages'/> 
+        <Tab label={<span style={{ color: ' white',fontFamily:'Montserrat'  }}><FontAwesomeIcon icon={faCircleDollarr} style={{marginRight:'10px',marginTop:'-150px',fontSize:'30px',marginBottom:'-5px'}}/>Earning</span>}  sx={{paddingTop:'10px',marginRight:'50px'}}   component={Link} to={"/Earning"} value='/Earning'/>
+        <Tab label={<span style={{ color: ' white',fontFamily:'Montserrat'  }}><AccountBalanceIcon icon={faWallets}  style={{marginRight:'10px',marginTop:'-150px',fontSize:'30px',marginBottom:'-10px'}}/>BankAccount</span>}  sx={{paddingTop:'10px',marginRight:'50px'}}  index={3} component={Link} to={"/BankAccount"} value='/BankAccount'/>
+        <Tab label={<span style={{ color: ' white',fontFamily:'Montserrat'  }}><AccountCircleIcon sx={{marginRight:'10px',marginTop:'-150px',fontSize:'30px',marginBottom:'-10px'}}/>ProfileSetting</span>}  sx={{paddingTop:'10px',marginRight:'50px'}}  component={Link} to={"/ProfileSetting"} value='/ProfileSetting'/> 
+        <Tab label={<span style={{ color: ' white',fontFamily:'Montserrat'  }}><LogoutIcon sx={{marginRight:'10px',marginTop:'-150px',fontSize:'30px',marginBottom:'-10px'}}/>LogOut</span>}  sx={{paddingTop:'10px',marginRight:'50px'}}  component={Link} to={"/"} />
       </Tabs>
     </AppBar>
 </Box> 

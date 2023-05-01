@@ -1,0 +1,165 @@
+.tutors{
+    min-height: 80vh;
+    font-family: Montserrat;
+   
+}
+
+.tutor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+    
+   }
+   .tutor h5{
+    font-weight: bold;
+    font-size: 30px;
+    color: gray;
+    font-family: Montserrat;
+
+
+   }
+   .tutor  .Benefits{
+    text-align: center;
+   margin-top: -40px;
+   font-size: 30px;
+   font-family: Montserrat;
+
+   }
+   .tutor .platform{
+    margin-top: -10px;
+    font-family: Montserrat;
+   }
+  
+   @media (max-width: 730px) {
+   .tutor .Communit{
+text-align: center;
+font-family: Montserrat;
+font-size: 13.7px;
+   }
+   .tutor  .Benefits{
+    text-align: center;
+   margin-top: -40px;
+   font-size: 25px;
+   font-family: Montserrat;
+
+   }
+  }
+  @media (max-width: 625px) {
+    .tutor .Communit{
+ text-align: center;
+ font-family: Montserrat;
+ font-size: 11px;
+    }
+    .tutor  .Benefits{
+     text-align: center;
+    margin-top: -40px;
+    font-size: 20px;
+    font-family: Montserrat;
+ 
+    }
+   }
+
+  @media (max-width: 500px) {
+    .tutor .Communit{
+      text-align: center;
+      font-family: Montserrat;
+      font-size: 9px;
+         }
+         .tutor  .Benefits{
+          text-align: center;
+         margin-top: -40px;
+         font-size: 17px;
+         font-family: Montserrat;
+      
+         }
+       
+   
+   }
+
+   @media (max-width: 420px) {
+    .tutor .Communit{
+      text-align: center;
+      font-family: Montserrat;
+      font-size: 9px;
+padding: 20px;
+         }
+         .tutor  .Benefits{
+          text-align: center;
+         margin-top: -40px;
+         font-size: 15px;
+         font-family: Montserrat;
+      
+         }
+   
+   }
+   @media (max-width: 365px) {
+.tutor .Benefits{
+font-size: 14px;
+}
+
+   }
+   @media (max-width: 335px) {
+    .tutor .Benefits{
+    font-size: 12px;
+    }
+    
+    
+       }
+   .cardds{
+    max-width: 700px;
+    margin: 0 auto;
+    display: grid;
+    gap: 2rem;
+    padding-top: 70px;
+    padding-bottom: 10px;
+   }
+
+
+  
+  @media (min-width: 900px) {
+    .cardds {
+      grid-template-columns: repeat(3, 1fr);
+    }
+   
+  }
+ 
+  @media (max-width: 900px) {
+    .cardds {
+      grid-template-columns: repeat(2, 1fr);
+    }
+   
+  }
+  @media (max-width: 750px) {
+    .cardds {
+   padding-left: 80px;
+    }
+   
+  }
+ 
+  @media (max-width: 500px) {
+    .cardds {
+      grid-template-columns: repeat(1,1fr);
+     margin-left: 120px;
+    }}
+    @media (max-width: 450px) {
+      .cardds {
+        grid-template-columns: repeat(1,1fr);
+   margin-left: 100px;
+      }}
+      @media (max-width: 415px) {
+        .cardds {
+          grid-template-columns: repeat(1,1fr);
+       margin-left: 80px;
+        }}
+        @media (max-width: 365px) {
+          .cardds {
+            grid-template-columns: repeat(1,1fr);
+         margin-left: 60px;
+          }}
+          @media (max-width: 325px) {
+            .cardds {
+              grid-template-columns: repeat(1,1fr);
+           margin-left: 20px;
+            }}

@@ -1,0 +1,176 @@
+.institute{
+    min-height: 60vh;
+    padding-top: 50px;
+    font-family: Montserrat;
+    
+  
+}
+.head{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: Montserrat;
+}
+@media (max-width: 500px) {
+    .head{
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+}
+.cards {
+    max-width: 700px;
+    margin: 0 auto;
+    display: grid;
+    gap: 2rem;
+    padding-top: 70px;
+    padding-bottom: 10px;
+  }
+  .card {
+    background-color: white;
+    color: #006;
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    /* box-shadow: 3px 3px 5px 6px #ccc; */
+  }
+ 
+  .cardone{
+    height: 300px;
+    width: 214px;
+    border-radius: 10px;
+    position: relative;
+   
+   
+  }
+  .national{
+    position: absolute;
+    width: 150px;
+    top: 230px;
+    margin-left: 40px;
+    font-weight: bolder;
+    color: white;
+    z-index: 1.5;
+    font-family: Montserrat;
+
+  }
+  .cardtwo{
+    height: 300px;
+    width: 210px;
+    border-radius: 10px;
+    
+  }
+  .cardthree{
+    height: 300px;
+    width: 215px;
+    border-radius: 10px;
+  }
+
+  @media (min-width: 600px) {
+    .cards {
+      grid-template-columns: repeat(2, 1fr);
+      padding: 30px;
+    }
+  }
+  @media (max-width: 355px) {
+    .head{
+      font-size: 25px;
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .cards {
+      grid-template-columns: repeat(3, 1fr);
+    }
+   
+  }
+  @media (max-width: 745px) {
+    .cards {
+      max-width: 500px;
+      margin: 0 auto;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+      padding-top: 70px;
+      padding-bottom: 10px;
+      margin-left: 10px;
+    }
+ 
+  }
+  @media (max-width: 735px) {
+    .cards {
+      max-width: 500px;
+      margin: 0 auto;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+      padding-top: 70px;
+      padding-bottom: 10px;
+      margin-left: 10px;
+    }
+ 
+  }
+  @media (max-width: 730px) {
+    .cards {
+   
+      grid-template-columns: repeat(1, 1fr);
+      margin: 0 auto;
+   
+    }
+ 
+  }
+  @media (max-width:800px) {
+    .cardone{
+        height: 300px;
+        width: 334px;
+      }
+    .cardtwo{
+        height: 300px;
+        width: 334px;
+    }
+    .cardthree{
+        height: 300px;
+        width: 334px; 
+    }
+  }
+  @media (max-width:400px) {
+    .cardone{
+        height: 300px;
+        width: 275px;
+      }
+      .cardtwo{
+        height: 300px;
+        width: 277px;
+    }
+    .cardthree{
+        height: 300px;
+        width: 277px;
+    }
+  }
+
+  @media (max-width:320px) {
+    .cardone{
+        height: 300px;
+        width: 250px;
+      }
+      .cardtwo{
+        height: 300px;
+        width: 250px;
+    }
+    .cardthree{
+        height: 300px;
+        width: 250px;
+    }
+    .head{
+      font-size: 20px;
+    }
+  }

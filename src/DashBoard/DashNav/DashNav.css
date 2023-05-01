@@ -1,0 +1,99 @@
+.navtext{
+    background-color:#D9D9D959;
+    border-radius:50%;
+margin-left: 200px;
+    height:40px;
+    width:40px ;
+   display:flex;
+    justify-content:center;
+    color: black;
+    
+   
+}
+.navicon{
+    background-color:#D9D9D959;
+    border-radius:50%;
+margin-left: 50px;
+    height:40px;
+    width:40px ;
+   display:flex;
+    justify-content:center
+}
+.dashicon{
+    height:40px;
+    width:500px;
+    margin-left:400px;
+    border-radius:50px;
+    background-color:#D9D9D959;
+    border:#D9D9D959;
+    position:relative;
+    font-family:Montserrat
+}
+
+@media (max-width: 1460px) {
+    .navtext{
+        margin-left: 120px;
+    }
+    .navicon{
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 1390px) {
+    .navtext{
+        margin-left: 80px;
+    }
+}
+@media (max-width: 1300px) {
+    .navtext{
+        margin-left: 20px;
+    }
+}
+@media (max-width: 1250px) {
+    .dashicon{
+        width:400px;
+    }
+}
+@media (max-width: 1150px) {
+    .dashicon{
+        width:400px;
+        margin-left: 300px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .dashicon{
+        width:350px;
+        margin-left: 300px;
+    }
+}
+@media (max-width: 990px) {
+    .dashicon{
+        width:350px;
+        margin-left: 250px;
+    }
+}
+
+@media (max-width: 940px) {
+  .navicon{
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 800px) {
+.navtext{
+    background-color:#D9D9D959;
+    border-radius:50%;
+margin-left: 80px;
+margin-top: 10px;
+    height:40px;
+    width:40px ;
+   display:flex;
+    justify-content:center;
+    color: black;
+}
+.navicon{
+    margin-left: 80px;
+    margin-top: 10px;
+}
+}

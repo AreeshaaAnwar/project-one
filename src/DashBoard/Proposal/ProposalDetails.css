@@ -1,0 +1,151 @@
+.w{
+    min-height: 100vh;
+    background-color: #F5F5F5;;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    gap: 50px;
+  }
+  
+  .item-one {
+    background-color: white;
+    padding: 10px;
+    flex: 50%;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 100px;
+    border-radius: 10px;
+  }
+  .ups{
+display: flex;
+justify-content: flex-start;
+font-size: 20px;
+padding: 20px;
+font-weight: 500;
+border-bottom: 1px solid black;
+font-family: Montserrat ;
+  }
+  .today{
+    display: flex;
+justify-content: flex-start;
+padding: 20px;
+font-size: 20px;
+color: #000000BA;
+font-family: Montserrat ;
+  }
+  .todays{
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    font-size: 20px;
+    color: #00000045;
+    font-family: Montserrat ;
+  }
+  .tod{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 17px;
+    /* padding-left: 20px; */
+    color: #000000BA;
+    margin-top: -30px;
+    font-family: Montserrat ;
+ padding-left: 20px;
+    
+  }
+  .cancel{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+  }
+  .can{
+    width: 100px;
+    height: 40px;
+    background-color: #074276;
+    border: #074276;
+    border-radius: 10px;
+    color: white;
+    font-family: Montserrat ;
+    font-size: 15px;
+    
+  
+  }
+  .item-two {
+    background-color: white;
+    padding: 10px;
+    flex: 10%;
+    margin-top: 240px;
+    margin-bottom: 240px;
+    margin-right: 200px;
+    border-radius: 10px;
+    position: relative;
+  }
+  .mus{
+    width:90px;
+    height:90px;
+    margin-top:-50px;
+    margin-left: -50px;
+position: absolute;
+
+  }
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+  @media (max-width: 1170px) {
+    .flex-container {
+      flex-direction: column;
+      flex-direction: column-reverse;
+    }
+    .mus{
+margin-top: -100px;
+  position: absolute;
+    }
+    .item-two{
+      margin: 10% auto;
+    width: 20%;
+    flex: 10%;
+    padding: 70px;
+    position: relative;
+    }
+    .item-one{
+    margin-right: 70px;
+    margin-top: -100px;
+    
+    }
+    
+  }
+  @media (max-width: 795px) {
+    .item-two{
+      margin-top: 130px;
+    }
+  }
+
+
+  @media (max-width: 520px) {
+    .item-two{
+      margin-top: 150px;
+    }
+  }
+  @media (max-width: 500px) {
+   
+    .item-one{
+   margin: auto;
+        
+        width: 80%;
+       
+       
+        }
+        /* .item-two{
+            
+        margin-top: 50px;
+        } */
+       
+  }
+  @media (max-width: 600px) {
+   
+    .item-one{
+            
+      margin-top: -50px;
+      }
+       
+  }

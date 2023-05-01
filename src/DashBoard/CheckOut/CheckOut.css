@@ -1,0 +1,248 @@
+.bo{
+
+  display: flex;
+  flex-direction: row;
+}
+.menuIcon{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.ullcheck{
+    margin-top: 30px;
+    list-style: none;
+  margin-left: 100px;
+  font-family: Montserrat;
+  
+  }
+  .ullchecks{
+    margin-top: 30px;
+    list-style: none;
+  margin-left: 80px;
+  font-family: Montserrat;
+  
+  }
+  .ullcheckss{
+    margin-top: 30px;
+    list-style: none;
+  margin-left: 80px;
+  display: flex;
+  flex-direction: row;
+  font-family: Montserrat;
+  
+  }
+  .check{
+    display: flex;
+    flex-direction: row;
+    padding-right: 10px;
+    border-bottom: 1px solid #0000005E;
+    font-family: Montserrat;
+    
+  }
+  .box{
+    border: 1px solid #000000;
+    margin: 50px;
+    width: 150px;
+    height: 50px;
+    position: relative;
+  }
+  .circles{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #1F90F3;
+ margin-left: 10px;
+ margin-top: 15px;
+  }
+  .circle-one{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  background-color: white;
+  border:1px solid #000000;
+margin-left: 7px;
+margin-top: 12px;
+  }
+ .walb{
+display: flex;
+justify-content: flex-end;
+padding-right: 30px;
+padding-bottom: 10px;
+  }
+  .wal-one{
+    width: 100px;
+    height: 40px;
+    background-color:#074276;
+    border: #074276;
+    color: white;
+    font-family: poppins;
+    font-size: 15px;
+    border-radius: 5px;
+    font-family: Montserrat;
+  }
+  .phy{
+    font-size: 20px;
+    color: #000000;
+  }
+  .wal-two{
+    width: 100px;
+    height: 40px;
+    background-color:#074276;
+    border: #074276;
+    color: white;
+    font-family: poppins;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-family: Montserrat;
+  }
+  .box-one{
+    border: 1px solid #000000;
+   margin-left: -50px;
+   margin-top: 50px;
+   /* margin-top: -101px; */
+    width: 150px;
+    height: 50px;
+    position: relative;
+  }
+
+
+  @media (max-width: 1530px) {
+.ullcheck{
+  margin-left: 20px;
+}
+.ullchecks{
+  margin-left: 20px;
+}
+.ullcheckss{
+  margin-left: 20px;
+}
+.ullpro{
+  margin-left: 20px;
+}
+  }
+
+  @media (max-width: 1400px) {
+  
+    .ulpro{
+      margin-left: -30px;
+    }
+    .ullchecks{
+      margin-left: -10px;
+    }
+    .ullcheckss{
+      margin-left: -10px;
+    }
+    .ullpro{
+      margin-left: -10px;
+    }
+      }
+
+
+
+
+  @media (max-width: 1243px) {
+    .check{
+        flex-direction: column;
+        padding-bottom: 5px;
+        }
+    .ullcheck{
+        margin-left: -20px;  
+    }
+    .ullchecks{
+        margin-left: -20px;  
+    }
+    .ullcheckss{
+        margin-left: -20px;  
+    }
+    /* .circles{
+        margin-left: -110px;
+    } */
+}
+@media (max-width: 500px) {
+
+.StuAvailable-lefts{
+
+    min-height: 40vh;
+    flex: 50%;
+    border-radius: 5px;
+    width: 50px;
+}
+.ullcheckss{
+    margin-left: -40px;
+    font-size: 10px;
+    flex-direction: column;
+}
+.bo{
+ margin-left: -40px;
+
+}
+}
+.StuAvailables{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    padding: 20px;
+   width: 80%;
+   margin: 0% auto;
+}
+.StuAvailable-lefts {
+    background-color: #FFFFFF;
+    min-height: 40vh;
+    flex: 50%;
+    border-radius: 5px;
+  }
+  .moshi{
+    font-size: 20px;
+    color: #000000;
+  }
+  .eaglesoft{
+    font-size: 20px;
+    color: #000000;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  @media (max-width: 400px) {
+    .StuAvailable-lefts{
+        background-color: #FFFFFF;
+        min-height: 40vh;
+        flex: 50%;
+        border-radius: 5px;
+    }
+    .bo{
+      flex-direction: column;
+      padding-bottom: 20px;
+    }
+    .box-one{
+      margin-left: 50px;
+      margin-top: -30px;
+     
+    }
+      
+.moshi{
+  font-size: 15px;
+}
+.eaglesoft{
+  font-size: 15px;
+
+
+}
+  }
+
+
+
+  @media (max-width: 320px) {
+  
+.moshi{
+  font-size: 15px;
+}
+.eaglesoft{
+  font-size: 15px;
+
+
+}
+.phy{
+  font-size: 18px;
+}
+  }
+ 

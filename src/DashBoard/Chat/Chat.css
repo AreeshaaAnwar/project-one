@@ -1,0 +1,1247 @@
+.chat{
+    min-height: 100vh;
+    font-family: Montserrat;
+ 
+}
+
+p.Lorem{
+    
+  display: flex;
+  justify-content: center;
+/* margin-top: 60px; */
+padding-top: 45px;
+  color: #00000080;
+margin-left: 30px  !important;
+font-size: 12px; 
+}
+.flex-containers {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    min-height: 100vh;
+  }
+  
+  .flex-item-left {
+    background-color: #F5F5F5;;
+  flex: 30%;
+  }
+  
+  .flex-item-right {
+    background-color: dodgerblue;
+   flex: 70%;
+   background: rgba(217, 217, 217, 0.32);
+  }
+  
+  .flex-item-right .cha{
+  
+   display: flex;
+   justify-content: center;
+padding-top: 250px;
+   
+  }
+  .chat-one{
+    height: 10vh;
+    background: rgba(217, 217, 217, 0.51);
+    position: relative;
+  }
+  .chat-two{
+    height: 10vh;
+    background: #074276;
+    padding-top: 20px;
+  
+  }
+  .Get{
+    font-size: 20px;
+   display: flex;
+  justify-content: center;
+  margin: -7%;
+  margin-left: 10px;
+  color: white;
+  font-family: Montserrat;
+  }
+  .Gets{
+    font-size: 17px;
+    display: flex;
+   justify-content: center;
+   margin: -13%;
+   margin-right: 110px;
+   font-weight: 500;
+   
+  }
+  @media screen and (max-width: 800px) {
+    .flex-item-left{
+      flex: 40%;
+    }
+    .flex-item-right{
+      flex: 60%;
+    }
+    .girl{
+      width: 60px;
+      height: 60px;
+      margin-left: 10px;
+      margin-top: -5px;
+     }
+     
+    .vectorIcon{
+      width: 30px;
+      height: 30px;
+    margin-left: 30px;
+    padding-bottom: 5px;
+    
+    }
+    .vector{
+      margin-left: -100px;
+     padding-bottom: 5px;
+     width: 30px;
+     height: 30px;
+     }
+     .icons{
+    /* margin-top: 5px; */
+    margin-left: 20px;
+     }
+    
+    .gir{
+      padding: 5px;
+    }
+    .Get{
+      font-size: 13px;
+      margin-top: -30px;
+      margin-left: 45px;
+    }
+    
+    .sear{
+      
+    position: absolute;
+    margin-right: 240px;
+    }
+    .Gets{
+     margin: -20%;
+    margin-left: -80px;
+    }
+    p.Lorem{
+      display: flex;
+      justify-content: center;
+margin-top: 5px;
+      color: #00000080;
+    margin-left: 85px  !important;
+    font-size: 12px; 
+    }
+    
+      }
+      @media screen and (max-width: 1920px) {
+        p.Lorem{
+          display: flex;
+          justify-content: center;
+    margin-top: 30px;
+          color: #00000080;
+        margin-left: 10px  !important;
+        font-size: 12px; 
+        }
+        .status{
+          margin-left: 100px;
+        }
+      
+      }
+
+      @media screen and (max-width: 1750px) {
+        .status{
+          margin-left: 60px;
+        }
+      }
+
+
+      @media screen and (max-width: 1620px) {
+        .status{
+          margin-left: 30px;
+        }
+       }
+
+       @media screen and (max-width: 1510px) {
+        .status{
+          margin-left: 1px;
+        }
+       }
+       @media screen and (max-width: 1445px) {
+        .Gets{
+          font-size: 17px;
+        display: flex;
+       justify-content: center;
+       margin: -13%;
+    padding-left: 10px;
+       font-weight: 500;
+       margin-top: -50px;
+       margin-left: -180px;
+        }
+        p.Lorem{
+       
+       padding-left: 60px;
+         margin-top: 20px;
+        }
+        .status{
+          margin-left: -20px;
+        }
+       }
+
+
+
+       @media screen and (max-width: 1335px) {
+      .status{
+        margin-left: -50px;
+      }
+      .Get{
+        font-size: 15px;
+    
+      margin-left: 30px;
+      }
+      .sear{
+        padding-left: 40px;
+      }
+
+      .Gets{
+        font-size: 17px;
+      display: flex;
+     justify-content: center;
+     margin: -13%;
+  padding-left: 10px;
+     font-weight: 500;
+     margin-top: -50px;
+     margin-left: -150px;
+      }
+      p.Lorem{
+     
+     padding-left: 85px;
+       margin-top: 10px;
+      }
+
+             
+       }
+
+       @media screen and (max-width: 1272px) {
+        .Gets{
+          font-size: 17px;
+        display: flex;
+       justify-content: center;
+       margin: -13%;
+    padding-left: 10px;
+       font-weight: 500;
+       margin-top: -50px;
+       margin-left: -120px;
+        }
+       }
+       @media screen and (max-width: 1250px) {
+        .status{
+          margin-left: -90px;
+          margin-top: -10px;
+        }
+        .Get{
+          font-size: 15px;
+      
+        margin-left: 30px;
+        }
+        .sear{
+          padding-left: 40px;
+        }
+  
+        .Gets{
+          font-size: 17px;
+        display: flex;
+       justify-content: center;
+       margin: -13%;
+    padding-left: 10px;
+       font-weight: 500;
+       margin-top: -70px;
+       margin-left: -120px;
+        }
+        p.Lorem{
+       
+       padding-left: 85px;
+         margin-top: -10px;
+        }
+  
+               
+         }
+         @media screen and (max-width: 1220px) {
+          /* .status{
+            margin-left: 80px;
+          } */
+        
+          .sear{
+            padding-left: 60px;
+          }
+    
+          .Gets{
+          margin-left: -110px;
+          }
+        
+          }
+          
+           
+
+           @media screen and (max-width: 1240px) {
+            .status{
+              margin-left: -70px;
+            }
+          
+            .sear{
+              padding-left: 80px;
+            }
+      
+      
+                   
+             }
+             @media screen and (max-width: 1167px) {
+              .status{
+                margin-left: -80px;
+                margin-top: -10px;
+              }
+              .girl{
+                width: 60px;
+                height: 60px;
+                margin-left: 10px;
+                margin-top: -8px;
+               }
+               .Gets{
+                margin-left: -90px;
+                margin-top: -60px;
+                }
+            }
+            @media screen and (max-width: 1132px) {
+              .status{
+                margin-left: -100px;
+                margin-top: -10px;
+              }
+              .Gets{
+                margin-left: -60px;
+                margin-top: -60px;
+                }
+                p.Lorem{
+       
+                  padding-left: 95px;
+                    margin-top: -20px;
+                    font-size: 10px;
+                   }
+                   .Get{
+                    margin-top: -35px;
+                   }
+             
+           
+            }
+                 
+                 
+
+             @media screen and (max-width: 1070px) {
+              .status{
+                margin-left: -130px;
+              }
+            
+              .sear{
+                padding-left: 120px;
+              }
+        
+              .Gets{
+                font-size: 17px;
+              display: flex;
+             justify-content: center;
+             margin: -13%;
+          padding-left: 10px;
+             font-weight: 500;
+             margin-top: -60px;
+             margin-left: -60px;
+              }
+              p.Lorem{
+             
+             padding-left: 85px;
+               margin-top: -15px;
+              }
+              .Get{
+                font-size: 15px;
+            
+              margin-left: 60px;
+              margin-top: -30px;
+              }
+                     
+               }
+
+               @media screen and (max-width: 1010px) {
+                .status{
+                  margin-left: -150px;
+                }
+              
+                .sear{
+                  padding-left: 120px;
+                }
+          
+                .Gets{
+                  font-size: 17px;
+                display: flex;
+               justify-content: center;
+               margin: -13%;
+            padding-left: 10px;
+               font-weight: 500;
+               margin-top: -65px;
+               margin-left: -30px;
+                }
+                p.Lorem{
+               
+               padding-left: 85px;
+                 margin-top: -35px;
+                }
+                .Get{
+                  font-size: 13px;
+              
+                margin-left: 60px;
+                margin-top: -30px;
+                }
+               }
+
+               @media screen and (max-width: 951px) {
+                .status{
+                  margin-left: -150px;
+                }
+              
+                .sear{
+                  padding-left: 140px;
+                }
+          
+                .Gets{
+                  font-size: 17px;
+                display: flex;
+               justify-content: center;
+               margin: -13%;
+            padding-left: 10px;
+               font-weight: 500;
+               margin-top: -60px;
+               margin-left: -20px;
+                }
+                p.Lorem{
+               
+               padding-left: 85px;
+              
+                 font-size: 11px;
+                 margin-top: -45px;
+                }
+                .Get{
+                  font-size: 12px;
+              
+                margin-left: 60px;
+                margin-top: -30px;
+                }
+                p.pos{
+                  font-size: 15px;
+                }
+               }
+
+
+
+
+               @media screen and (max-width: 900px) {
+               .status .vectorIcon{
+                  margin-left: 30px;
+                }
+                .status .icons{
+                  margin-left: 10px;
+                }
+                .Gets{
+                  font-size: 17px;
+                display: flex;
+               justify-content: center;
+               margin: -13%;
+            padding-left: 10px;
+               font-weight: 500;
+               margin-top: -60px;
+               margin-left: -10px;
+                }
+                p.Lorem{
+               
+               padding-left: 85px;
+              
+                 font-size: 10px;
+                 margin-top: -45px;
+                }
+                .Get{
+                  font-size: 10px;
+              
+                margin-left: 60px;
+                margin-top: -30px;
+                }
+               }
+
+
+               @media screen and (max-width: 861px) {
+               
+                 .Gets{
+                   font-size: 17px;
+                 display: flex;
+                justify-content: center;
+                margin: -13%;
+             padding-left: 10px;
+                font-weight: 500;
+                margin-top: -60px;
+                margin-left: -10px;
+                 }
+                 p.Lorem{
+                
+                padding-left: 75px;
+               
+                  font-size: 10px;
+                  margin-top: -45px;
+                 }
+                 .Get{
+                   font-size: 10px;
+               
+                 margin-left: 60px;
+                 margin-top: -30px;
+                 }
+                 .sear{
+                 padding-left: 170px;
+                 }
+                 p.pos{
+                  font-size: 12px !important;
+                  margin-top: 10px;
+                 }
+                }
+                @media screen and (max-width: 810px) {
+                  .Gets{
+                    font-size: 17px;
+                  display: flex;
+                 justify-content: center;
+                 margin: -13%;
+              padding-left: 10px;
+                 font-weight: 500;
+                 margin-top: -60px;
+                 margin-left: 10px;
+                  }
+                }
+
+                @media screen and (max-width: 800px) {
+                  .status{
+                    margin-left: 20px;
+                  }
+
+                  .Gets{
+                    font-size: 17px;
+                  display: flex;
+                 justify-content: center;
+                 margin: -13%;
+              padding-left: 10px;
+                 font-weight: 500;
+                 margin-top: -60px;
+                 margin-left: -80px;
+                  }
+                  p.Lorem{
+                 
+                 padding-left: 75px;
+                
+                   font-size: 10px;
+                   margin-top: -45px;
+                  }
+
+                }
+
+
+
+
+
+
+
+  @media screen and (max-width: 751px) {
+    .Gets{
+      font-size: 17px;
+    display: flex;
+   justify-content: center;
+   margin: -13%;
+padding-left: 10px;
+   font-weight: 500;
+   margin-top: -70px;
+   margin-left: -50px;
+    }
+    p.Lorem{
+      font-size: 11px;
+      margin-left: 85px;
+     margin-top: -50px;
+    }
+    .status{
+      position: absolute;
+      margin-left: -20px;
+        padding-top: 15px;
+    }
+  }
+
+
+
+  @media screen and (max-width: 731px) {
+   
+    p.Lorem{
+      font-size: 11px;
+      margin-left: 85px;
+      padding-top: 50px !important;
+    }
+  }
+  @media screen and (max-width: 720px) {
+    /* .Gets{
+      font-size: 17px;
+    display: flex;
+   justify-content: center;
+   margin: -13%;
+padding-left: 25px;
+   font-weight: 500;
+   margin-top: -10px;
+    } */
+    .Gets{
+      font-size: 17px;
+    display: flex;
+   justify-content: center;
+   margin: -13%;
+padding-left: 10px;
+   font-weight: 500;
+   margin-top: -70px;
+   margin-left: -45px;
+    }
+    .sear{
+      padding-left: 10px;
+    }
+    .mess-two{
+      padding-left: 5px;
+      padding-right: 5px;
+   }
+   .messs{
+      padding-left: 5px;
+      padding-right: 5px;
+   }
+   .center-div{
+     
+    padding-right: 20px;
+    font-size: 12px !important
+   
+}
+    /* p.Lorem{
+      font-size: 11px;
+      margin-left: 105px;
+     margin-top: 10px;
+    } */
+  
+    .status{
+      position: absolute;
+   margin-left: -30px;
+     padding-top: 15px;
+      
+    }
+  }
+  @media screen and (max-width: 710px) {
+    .sear{
+   padding-left: 10px;
+    }
+ 
+    .Gets{
+      font-size: 17px;
+    display: flex;
+   justify-content: center;
+   margin: -13%;
+padding-left: 10px;
+   font-weight: 500;
+   margin-top: -70px;
+   margin-left: -40px;
+    }
+  }
+
+
+  @media screen and (max-width: 700px) {
+    .sear{
+      padding-left: 20px;
+    }
+    .Get{
+      font-size: 13px;
+      display: flex;
+     justify-content: center;
+   
+   padding-left: 15px;
+     }
+    p.pos{
+      font-size: 15px;
+      margin-top: 5px;
+     }
+     .Gets{
+      font-size: 17px;
+    display: flex;
+   justify-content: center;
+   margin: -13%;
+padding-left: 10px;
+   font-weight: 500;
+   margin-top: -70px;
+   margin-left: -35px;
+    }
+  
+    }
+  
+
+  @media screen and (max-width: 695px) {
+  
+    .Gets{
+      font-size: 17px;
+    display: flex;
+   justify-content: center;
+   margin: -13%;
+padding-left: 10px;
+   font-weight: 500;
+   margin-top: -65px !important;
+    }
+ 
+
+
+  }
+  @media screen and (max-width: 685px) {
+  
+    .Gets{
+      font-size: 17px;
+    display: flex;
+   justify-content: center;
+   margin: -13%;
+padding-left: 15px;
+   font-weight: 500;
+   margin-top: -65px !important;
+    }
+ 
+    .status{
+      position: absolute;
+      margin-left: -60px;
+        padding-top: 15px;
+    }
+    .Get{
+      font-size: 12px;
+      display: flex;
+     justify-content: center;
+   
+   padding-left: 10px;
+     }
+  }
+
+  @media screen and (max-width: 675px) {
+p.Get{
+  font-size: 11px;
+  margin-top: -30px;
+  margin-left: 25px;
+}
+.Gets{
+  font-size: 17px;
+display: flex;
+justify-content: center;
+margin: -13%;
+padding-left: 20px;
+font-weight: 500;
+margin-top: -65px !important;
+}
+  }
+  @media screen and (max-width: 661px) {
+   
+    .flex-item-right{
+        display: none;
+    }
+    .status{
+      position: absolute;
+      margin-left: 340px;
+        padding-top: 15px;
+    }
+p.Get{
+  font-size: 25px;
+  margin-top: -40px;
+  margin-left: -100px
+}
+.sear{
+  padding-right: 200px;
+  padding-top: 3px;
+ 
+}
+p.pos{
+  font-size: 20px;
+}
+p.Gets{
+  margin-top: -60px;
+  padding-right: 350px;
+}
+p.Lorem{
+  margin-top: 35px;
+  padding-right: 240px;
+
+ 
+ }
+       }
+
+       @media screen and (max-width: 650px) {
+        .status{
+          position: absolute;
+          margin-left: 320px;
+            padding-top: 15px;
+        }
+       }
+  @media screen and (max-width: 630px) {
+    p.Get{
+      margin-left: -120px;
+    }
+    p.Gets{
+      padding-left: 70px;
+    }
+    p.Lorem{
+      margin-top: 35px;
+      padding-right: 190px;
+    
+     
+     }
+     .status{
+      position: absolute;
+      margin-left: 300px;
+        padding-top: 15px;
+    }
+  
+  }
+  @media screen and (max-width: 610px) {
+    .status{
+      margin-left: -50px;
+    }
+    p.Get{
+      margin-left: -55px;
+    
+    }
+    p.pos{
+      font-size: 20px;
+    }
+    .sear{
+      padding-left: 60px;
+    }
+    p.Lorem{
+      margin-top: 35px;
+      padding-right: 180px;
+    
+     
+     }
+    p.Gets{
+ padding-left: 80px;
+ margin-top: -60px;
+    }
+    .status{
+      position: absolute;
+      margin-left: 280px;
+        padding-top: 15px;
+    }
+  }
+  @media screen and (max-width: 590px) {
+p.Gets{
+  padding-left: 90px;
+}
+.status{
+  position: absolute;
+  margin-left: 260px;
+    padding-top: 15px;
+}
+.vector{
+  width: 100px;
+  height: 100px;
+}
+p.Lorem{
+  margin-top: 30px;
+  padding-right: 160px;
+
+ 
+ }
+  }
+
+  
+
+
+  @media screen and (max-width: 565px) {
+  
+
+.sear{
+  padding-right: 160px;
+  padding-top: 2px;
+}
+p.Gets{
+  padding-left: 95px;
+}
+  p.Get{
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  .status{
+    margin-left: 230px;
+  }
+
+  p.Lorem{
+    margin-top: 20px;
+    padding-right: 160px;
+  
+   }
+  }
+  @media screen and (max-width: 555px) {
+.status{
+  margin-left: 220px;
+}
+p.Lorem{
+  margin-top: 20px;
+  padding-right: 150px;
+
+ 
+ }
+  p.Gets{
+    padding-left: 105px;
+  }
+
+
+  }
+
+  @media screen and (max-width: 550px) {
+    .status{
+      margin-left: 220px;
+    }
+    p.Lorem{
+      margin-top: 20px;
+      padding-right: 140px;
+    
+     
+     }
+      p.Gets{
+        padding-left: 115px;
+      }
+
+
+      p.Get{
+        font-size: 20px;
+        margin-right: 40px;
+      }
+      }
+
+
+      @media screen and (max-width: 540px) {
+       
+        p.Lorem{
+          margin-top: 25px;
+          padding-right: 120px;
+        
+         
+         }
+         .status{
+          margin-left: 210px;
+        }
+          p.Gets{
+            padding-left: 135px;
+          }
+          input.text {
+            width: 80%;
+          }
+          .text-div{
+            margin-right: 50px;
+          }
+          .sear{
+            padding-left: 140px;
+          }
+          }
+  @media screen and (max-width: 521px) {
+   p.Get{
+    margin-right: 50px;
+   }
+   .status{
+    margin-left: 190px;
+  }
+  p.Lorem{
+    margin-top: 20px;
+    padding-right: 140px;
+  
+   
+   }
+    p.Gets{
+      padding-left: 120px;
+    }
+
+      }
+         @media screen and (max-width: 500px) {
+.status{
+  margin-left: 170px;
+}
+input.text {
+  width: 80%;
+}
+.sear{
+  padding-left: 140px;
+}
+
+         }
+        @media screen and (max-width: 480px) {
+          input.text {
+            width: 70%;
+          }
+          .sear{
+            padding-left: 180px;
+          }
+          .status{
+            margin-left: 150px;
+          }
+        }
+
+        @media screen and (max-width: 460px) {
+
+          input.text {
+            width: 60%;
+          }
+          .sear{
+            padding-left: 250px;
+          }
+          .status{
+            margin-left: 130px;
+          }
+          .text-div{
+            margin-right: 80px;
+          }
+        }
+
+ 
+        @media screen and (max-width: 441px) {
+          .status{
+            margin-left: 100px;
+        }
+        .text-div{
+          margin-right: 100px;
+        }
+        .sear{
+          padding-left: 270px;
+        }
+        p.pos{
+          font-size: 15px;
+        }
+      }
+        @media screen and (max-width: 430px) {
+          input.text {
+            width: 65%;
+          }
+          .sear{
+            padding-left: 250px;
+          }
+          .status{
+            margin-left: 90px;
+          }
+          .text-div{
+            margin-right: 100px;
+          }
+         
+        }
+
+
+        @media screen and (max-width: 406px) {
+
+          .status{
+            margin-left: 70px;
+          }
+          .text-div{
+            margin-right: 140px;
+          }
+          .sear{
+            padding-left: 270px;
+          }
+          p.Lorem{
+            margin-top: 20px;
+            padding-right: 160px;
+          
+           
+           }
+            p.Gets{
+              padding-left: 100px;
+            }
+            .sear{
+              padding-left: 290px;
+            }
+            p.Get{
+              margin-right: 30px;
+             }
+        }
+
+
+ 
+
+  .text-div{
+display: flex;
+justify-content: center;
+margin-top: 5px;
+position: relative;
+
+  }
+  .sear{
+    position: absolute;
+    margin-right: 350px;
+    color: rgba(0, 0, 0, 0.65);
+  }
+  .pos{
+    position: absolute;
+    font-size: 17px;
+    margin: 1%;
+    color: #00000075;
+  }
+.text{
+  width: 90%;
+height: 35px;
+border-radius: 50px;
+background: rgba(217, 217, 217, 0.87);
+border: rgba(217, 217, 217, 0.87) ;
+
+}
+  .chat-three{
+    height: 6vh;
+ border-bottom: 1px solid rgba(0, 0, 0, 0.14);
+  }
+  .chat-four{
+    height: 10vh;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.14);
+
+  }
+  .status{
+    position: absolute;
+   padding-left: 250px;
+   padding-top: 15px;
+    
+  }
+ .vectorIcon{
+  margin-left: 40px;
+  /* padding-bottom: 5px; */
+ }
+ 
+ .icons{
+  margin-left: 30px;
+  /* padding-bottom: 5px; */
+  padding-top: 5px;
+ }
+ .girl{
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+ }
+ .gir{
+  padding: 10px;
+ }
+ .not{
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+margin-left: 25px;
+ }
+
+.vector{
+  width: 30px;
+  height: 30px;
+  /* padding-bottom: 5px; */
+}
+.vectorIcon{
+  width: 30px;
+  height: 30px;
+}
+
+
+
+
+  @media screen and (max-width: 400px) {
+   .status{
+    margin-left: 60px;
+   }
+   .text-div{
+    margin-right: 130px;
+  }
+  .sear{
+    padding-left: 270px;
+  }
+  p.Get{
+    margin-right: 35px;
+  font-size: 18px; 
+  margin-top: -35px;
+  }
+  }
+  @media screen and (max-width: 371px) {
+    .status{
+     margin-left: 40px;
+    }
+    .text-div{
+     margin-right: 130px;
+   }
+   .sear{
+     padding-left: 270px;
+   }
+   p.Get{
+     margin-right: 50px;
+   font-size: 16px; 
+   margin-top: -35px;
+   }
+   }
+
+  @media screen and (max-width: 365px) {
+
+    .status{
+      margin-left: 30px;
+     }
+     .text-div{
+      margin-right: 170px;
+    }
+    p.pos{
+      font-size: 15px;
+    }
+    .sear{
+      padding-left: 300px;
+    }
+  }
+  @media screen and (max-width: 350px) {
+    .status{
+      margin-left: 20px;
+     }
+     .text-div{
+      margin-right: 170px;
+    }
+    p.Get{
+      margin-right: 70px;
+    font-size: 15px; 
+    margin-top: -35px;
+    }
+
+  }
+  @media screen and (max-width: 340px) {
+    .status{
+      margin-left: 10px;
+     }
+    p.Lorem{
+      font-size: 10px !important ;
+      padding-right: 200px;
+      
+    }
+      p.Gets{
+       font-size: 15px !important
+      }
+      p.Get{
+        margin-right: 90px;
+        margin-top: -35px;
+        font-size: 15px;
+       }
+       .sear{
+        padding-left:320px;
+      }
+      p.pos{
+        font-size: 13px;
+      }
+  }
+  @media screen and (max-width: 325px) {
+    .status{
+      margin-left: 0px;
+     }
+     /* .sear{
+      padding-left:290px;
+    } */
+   
+  }
+
+
+
+
+  @media screen and (max-width: 768px) {
+  
+      p.Lorem{
+        font-size: 11px;
+        margin-left: 85px;
+        padding-top: 50px;
+      }
+    
+  }
+
+

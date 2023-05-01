@@ -1,0 +1,11 @@
+.Abouts{
+    background:rgba(0, 0,0,0.7) url(../Images/about.png)
+    no-repeat;
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+background-blend-mode: darken;
+font-family: Montserrat;
+
+}
